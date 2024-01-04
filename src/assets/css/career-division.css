@@ -1,0 +1,231 @@
+.divisions-main-wrapper h3 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+
+}
+
+.divisions-h1 {
+  text-align: center;
+  align-items: center;
+}
+
+/**global styllings for the main-wrapper**/
+.divisions-main-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  min-height: 300px;
+  width: auto;
+  z-index: 2;
+  overflow: hidden;
+  top: 0;
+
+}
+
+/** global styling for the sub containers elements from 1st child element
+to the last child element**/
+
+.divi-1-container,
+.divi-2-container,
+.divi-3-container {
+  display: block;
+  justify-content: center;
+  position: relative;
+  z-index: 999;
+  min-width: 90px;
+
+
+
+}
+
+/** general stylings for the bottom sub container elements from 1st child
+absolute child elements**/
+
+.t-business-con,
+.t-Data-con,
+.t-Legal-con,
+.t-Finance-con,
+.t-Tech-con,
+.t-Cop-service-con {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding: 4px;
+
+}
+
+/** individual stylings for all the basic components**/
+/*t-business-con*/
+.t-business-con {
+  background-color: white;
+  border-top: 20px solid lightgreen;
+  overflow: hidden;
+  overflow: hidden;
+  animation: blink 6s infinite;
+}
+
+/*making top borders blink in an interval of time */
+
+@keyframes blink {
+  0% {
+    border-top: 20px solid lightgreen;
+  }
+
+  50% {
+    border-top: 20px solid green;
+  }
+
+  100% {
+    border-top: 20px solid gold;
+  }
+}
+
+.t-Data-con {
+  background-color: white;
+  border-top: 20px solid lightblue;
+  margin-top: 30px;
+  animation: blink-2 6s infinite;
+}
+
+/*making top borders blink in an interval of time */
+@keyframes blink-2 {
+  0% {
+    border-top: 20px solid rgb(104, 170, 181);
+  }
+
+  50% {
+    border-top: 20px solid rgb(124, 100, 203);
+  }
+
+  100% {
+    border-top: 20px solid rgb(120, 62, 77);
+  }
+}
+
+.t-Legal-con {
+  background-color: white;
+  border-top: 20px solid yellow;
+  overflow: hidden;
+  animation: blink-3 6s infinite;
+}
+
+/*making top borders blink in an interval of time */
+@keyframes blink-3 {
+  0% {
+    border-top: 20px solid rgb(250, 109, 8);
+  }
+
+  50% {
+    border-top: 20px solid rgb(37, 39, 37);
+  }
+
+  100% {
+    border-top: 20px solid rgb(141, 172, 215);
+  }
+}
+
+.t-Finance-con {
+  background-color: white;
+  border-top: 20px solid blue;
+  margin-top: 30px;
+  overflow: hidden;
+  animation: blink-4 6s infinite;
+}
+
+/*making top borders blink in an interval of time */
+
+@keyframes blink-4 {
+  0% {
+    border-top: 20px solid lightgreen;
+  }
+
+  50% {
+    border-top: 20px solid green;
+  }
+
+  100% {
+    border-top: 20px solid gold;
+  }
+}
+
+.t-Tech-con {
+  background-color: white;
+  border-top: 20px solid violet;
+  overflow: hidden;
+  animation: blink-5 6s infinite;
+}
+
+/*making top borders blink in an interval of time */
+@keyframes blink-5 {
+  0% {
+    border-top: 20px solid rgb(169, 177, 169);
+  }
+
+  50% {
+    border-top: 20px solid rgb(13, 114, 120);
+  }
+
+  100% {
+    border-top: 20px solid rgb(56, 136, 73);
+  }
+}
+
+.t-Cop-service-con {
+  background-color: white;
+  border-top: 20px solid red;
+  margin-top: 30px;
+  overflow: hidden;
+  animation: blink-6 6s infinite;
+}
+
+/*making top borders blink in an interval of time */
+@keyframes blink-6 {
+  0% {
+    border-top: 20px solid rgb(1, 34, 1);
+  }
+
+  50% {
+    border-top: 20px solid rgb(65, 60, 6);
+  }
+
+  100% {
+    border-top: 20px solid rgb(38, 22, 69);
+  }
+}
+
+/**stylings for  the full-texts default hidden state**/
+
+.t-business-con .full-text,
+.t-Data-con .full-text,
+.t-Legal-con .full-text,
+.t-Finance-con .full-text,
+.t-Tech-con .full-text,
+.t-Cop-service-con .full-text {
+  display: none;
+}
+
+/**global styles on hover to show full texts of basics elements**/
+
+.t-business-con:hover .full-text,
+.t-Data-con:hover .full-text,
+.t-Legal-con:hover .full-text,
+.t-Finance-con:hover .full-text,
+.t-Tech-con:hover .full-text,
+.t-Cop-service-con:hover .full-text {
+  display: inline-block;
+  position: relative;
+  cursor: none;
+}
+
+/*hide the blinking effects  on hover*/
+
+.t-business-con:hover,
+.t-Data-con:hover,
+.t-Legal-con:hover,
+.t-Finance-con:hover,
+.t-Tech-con:hover,
+.t-Cop-service-con:hover {
+  animation: none;
+}

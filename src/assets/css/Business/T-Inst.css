@@ -1,0 +1,846 @@
+.t-inst-hero-container {
+  background: #5606f5;
+  display: flex;
+  height: auto;
+  overflow: hidden;
+}
+.t-inst-hero-container .txt1 {
+  padding-top: 8rem;
+  position: absolute;
+  left: 5rem;
+  color: white;
+}
+
+.inst-mobile-image {
+  display: none;
+}
+
+.half-line-text {
+  color: red;
+  font-weight: bold;
+  font-family: open sans;
+  font-size: 24px;
+  border-top: 2px solid red;
+  width: 7.5em;
+}
+
+.txt1 .inst-h1 {
+  font-family: open sans;
+  font-size: 60px;
+  font-weight: 800;
+}
+.txt1 .body-text-inst {
+  font-size: 24px;
+  font-family: "open sans";
+
+  width: 55%;
+}
+
+.inst-sub-hero {
+  background-color: f7f7f7;
+  display: flex;
+  position: relative;
+  height: auto;
+}
+
+.inst-sub-hero text {
+  width: 55%;
+  font-family: open sans;
+  font-weight: 700;
+  position: relative;
+  top: 10.9rem;
+  margin-left: 3.5rem;
+  margin-right: 1.5rem;
+  font-size: 40px;
+  text-align: left;
+}
+.inst-sub-hero .red-txt {
+  color: red;
+}
+.inst-desktop-image {
+  object-fit: contain;
+  position: relative;
+  min-width: 90em;
+  height: 80.2vh;
+  left: 25.1rem;
+}
+
+.inst-sub-hero img {
+  width: 50%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+#inst-slide-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 0;
+}
+.inst-slide-section img {
+  width: 20em;
+  height: auto;
+  padding-top: 15px;
+}
+
+.div-1,
+.div-2,
+.div-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.red-txt1,
+.red-txt2,
+.red-txt3 {
+  color: red;
+  font-family: "open sans";
+  font-weight: 700;
+}
+.txt1,
+.txt2,
+.txt3 {
+  font-family: "open sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+.inst-slide-section h2 {
+  font-weight: bold;
+  font-family: open sans;
+  font-size: 30px;
+  position: relative;
+  left: 6em;
+}
+
+/*Responsiveness*/
+/*Laptops*/
+
+@media only screen and (min-width: 1440px) {
+  .t-inst-hero-container {
+    background: #5606f5;
+    display: flex;
+    height: auto;
+    overflow: hidden;
+  }
+  .t-inst-hero-container .txt1 {
+    padding-top: 5rem;
+    position: absolute;
+    left: 5rem;
+    color: white;
+  }
+
+  .inst-mobile-image {
+    display: none;
+  }
+
+  .half-line-text {
+    color: red;
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 24px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .inst-h1 {
+    font-family: open sans;
+    font-size: 60px;
+    font-weight: 800;
+  }
+  .txt1 .body-text-inst {
+    font-size: 24px;
+    font-family: open sans;
+    font-weight: bold;
+  }
+
+  .inst-sub-hero {
+    background-color: f7f7f7;
+    display: flex;
+    position: relative;
+    height: auto;
+  }
+
+  .inst-sub-hero text {
+    font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 10.9rem;
+
+    text-align: left;
+  }
+  .inst-sub-hero .red-txt {
+    color: red;
+  }
+  .inst-desktop-image {
+    object-fit: contain;
+    min-width: 70em;
+    height: 81vh;
+    top: 5rem;
+    left: 49.8%;
+    position: relative;
+  }
+
+  .inst-sub-hero img {
+    width: 50%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  #inst-slide-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0;
+  }
+  .inst-slide-section img {
+    width: 20em;
+    height: auto;
+    padding-top: 15px;
+  }
+
+
+
+
+
+  .inst-slide-section h2 {
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 30px;
+    position: relative;
+    left: 6em;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .t-inst-hero-container {
+    background: #5606f5;
+    display: flex;
+    min-height: auto;
+    overflow: hidden;
+  }
+  .t-inst-hero-container .txt1 {
+    padding-top: 8rem;
+    position: absolute;
+    left: 2rem;
+    color: white;
+  }
+
+  .inst-mobile-image {
+    display: none;
+  }
+
+  .half-line-text {
+    color: red;
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 24px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .inst-h1 {
+    font-family: open sans;
+    font-size: 60px;
+    font-weight: 800;
+  }
+  .txt1 .body-text-inst {
+    font-size: 24px;
+    font-family: "open sans";
+    font-weight: bold;
+  }
+
+  .inst-sub-hero {
+    background-color: f7f7f7;
+    display: flex;
+    position: relative;
+    height: auto;
+  }
+
+
+  .inst-sub-hero .red-txt {
+    color: red;
+  }
+  .inst-desktop-image {
+    object-fit: contain;
+    position: relative;
+    min-width: 90em;
+    height: 80.2vh;
+    left: 20.3rem;
+  }
+
+  .inst-sub-hero img {
+    width: 50%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  #inst-slide-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 0;
+  }
+  .inst-slide-section img {
+    width: 20em;
+    height: auto;
+    padding-top: 15px;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 6rem;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: open sans;
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: open sans;
+    font-size: 18px;
+  }
+  .inst-slide-section h2 {
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 30px;
+    position: relative;
+    left: 6em;
+  }
+}
+
+/**Mobile view**/
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .t-inst-hero-container {
+    background: #5606f5;
+    display: block;
+    height: 600px;
+    left: 0;
+  }
+
+  .t-inst-hero-container .txt1 {
+    top: 6.3rem;
+    position: relative;
+    left: 7px;
+
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+    display: flex;
+    top: 0;
+    padding-left: 0;
+    color: rgb(30, 30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .inst-h1 {
+    font-family: "open sans";
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-inst {
+    font-family: "open sans";
+    text-align: left;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .inst-sub-hero {
+    background-color: f7f7f7;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 27rem;
+    justify-content: center;
+    top: 0;
+    align-items: center;
+  }
+
+  .inst-sub-hero text {
+       font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 1.2rem;
+    font-size: 20px;
+    width: 100%;
+    left: 0.5rem;
+  }
+  .inst-sub-hero .red-txt {
+    color: red;
+  }
+  .inst-desktop-image {
+    display: none;
+  }
+  .inst-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .inst-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .inst-slide-section {
+    display: flex;
+    flex-direction: row;
+    row-gap: 1.5rem;
+
+    justify-content: space-between;
+    align-items: start;
+
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .inst-slide-section .slide-desktop-image {
+    width: 300px;
+    height: 18em;
+   
+   
+  }
+ 
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: center;
+   
+    padding-top: 0;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 428px) {
+  .t-inst-hero-container {
+    background: #5606f5;
+    display: block;
+    height: 600px;
+    left: 0;
+  }
+
+  .t-inst-hero-container .txt1 {
+    top: 7.3rem;
+    position: relative;
+    left: 7px;
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+    display: flex;
+    top: 0;
+    padding-left: 0;
+    color: rgb(30, 30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .inst-h1 {
+    font-family: "open sans";
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-inst {
+    font-family: "open sans";
+    font-family: "open sans";
+    text-align: left;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    right: 0.3rem;
+   
+  }
+
+  .inst-sub-hero {
+      background-color: f7f7f7;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 27rem;
+    justify-content: center;
+    top: 0;
+    align-items: center;
+  }
+
+  .inst-sub-hero text {
+  font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 1.2rem;
+    font-size: 20px;
+    width: 75%;
+    left: 0.5rem;
+  }
+  .inst-sub-hero .red-txt {
+    color: red;
+  }
+  .inst-desktop-image {
+    display: none;
+  }
+  .inst-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .inst-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .inst-slide-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    row-gap: 2rem;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .inst-slide-section .slide-desktop-image {
+    width: 24em;
+    height: 18em;
+    padding-top: 15px;
+ 
+  }
+  .inst-slide-section .slide-mobile-image {
+    display: flex;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    padding-top: 0;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .t-inst-hero-container {
+    background: #5606f5;
+    display: block;
+    height: 600px;
+    left: 0;
+  }
+
+  .t-inst-hero-container .txt1 {
+    top: 6.3rem;
+    position: relative;
+    left: 7px;
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+    display: flex;
+    top: 0;
+    padding-left: 0;
+    color: rgb(30, 30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .inst-h1 {
+    font-family: "open sans";
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-inst {
+    font-size: 14px;
+    font-family: "open sans";
+    text-align: left justify;
+    font-size: 12px;
+   
+  }
+
+  .inst-sub-hero {
+    background-color: f7f7f7;
+    display: block;
+    position: relative;
+    min-height: 27rem;
+    top: 0;
+  }
+
+  .inst-sub-hero text {
+    font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 4px;
+    left: 10.5rem;
+    font-size: 20px;
+    text-align: left;
+  }
+  .inst-sub-hero .red-txt {
+    color: red;
+  }
+  .inst-desktop-image {
+    display: none;
+  }
+  .inst-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .inst-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .inst-slide-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    row-gap: 2rem;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .inst-slide-section .slide-desktop-image {
+    width: 24em;
+    height: 18em;
+    padding-top: 15px;
+    border-radius: 14px;
+    display: none;
+  }
+  .inst-slide-section .slide-mobile-image {
+    display: flex;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    padding-top: 0;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 18px;
+  }
+}
+
+/*TABLETS*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .t-inst-hero-container {
+    background: #5606f5;
+    display: block;
+    height: 800px;
+    left: 0;
+  }
+
+  .t-inst-hero-container .txt1 {
+    top: 7.3rem;
+    position: relative;
+    left: 7px;
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+    display: flex;
+    top: 0;
+    padding-left: 0;
+    color: rgb(30, 30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .inst-h1 {
+    font-family: "open sans";
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-inst {
+    font-size: 14px;
+    font-family: "open sans";
+    text-align: left justify;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .inst-sub-hero {
+      background-color: f7f7f7;
+    display: block;
+    position: relative;
+    min-height: 27rem;
+    top: 0;
+  }
+
+  .inst-sub-hero text {
+  font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 4px;
+    left: 10.5rem;
+    font-size: 20px;
+    text-align: left;
+ 
+ 
+  }
+  .inst-sub-hero .red-txt {
+    color: red;
+  }
+  .inst-desktop-image {
+    display: none;
+  }
+  .inst-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .inst-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .inst-slide-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    row-gap: 2rem;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .inst-slide-section .slide-desktop-image {
+    width: 24em;
+    height: 18em;
+    padding-top: 15px;
+  
+  }
+  .inst-slide-section .slide-mobile-image {
+    display: flex;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    padding-top: 0;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 18px;
+  }
+}

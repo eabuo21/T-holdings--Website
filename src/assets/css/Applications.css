@@ -1,0 +1,63 @@
+.applications-container {
+  position: relative;
+  top: 0;
+  bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.-image {
+  height: 50vh;
+  width: 120vh;
+  max-width: auto;
+}
+.applications-container > .career-openrole-h1 {
+  position: relative;
+  display: flex;
+  top: 0;
+  padding-bottom: 2rem;
+}
+
+.download-button-app{
+    background: red;
+    outline: none;
+    color: white;
+    border: none;
+    height: 60px;
+    font-weight: bold;
+    transition: 0.7s ease-out-out;
+    transition: all;
+    border-radius: 3px;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .-image {
+    height: 20vh;
+    width: 40vh;
+    max-width: auto;
+    position: relative;
+    bottom: 2rem;
+  }
+  .applications-container > .career-openrole-h1 {
+    font-size: 20px;
+  }
+
+.download-button-app{
+position: relative;
+bottom: 3rem;
+font-size: 14px;
+font-weight: normal;
+
+}
+
+
+}
