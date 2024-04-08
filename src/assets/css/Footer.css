@@ -1,0 +1,643 @@
+    footer {
+      background: #3c3e3e;
+      position: relative;
+      overflow: hidden;
+      letter-spacing: 0;
+      padding: 10px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 999;
+      justify-content: center;
+      height: auto;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      height: auto;
+    }
+
+    .colunm {
+      width: 20%;
+    }
+
+    .rows {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    footer li {
+      list-style-type: ">";
+      color: gold;
+      padding: 6px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: white;
+      font-family: sans-serif;
+      font-size: 19px;
+    }
+
+    footer ul li a:hover {
+      color: rgb(0, 0, 0);
+      transition: 0.7s ease;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    footer h3 {
+      color: white;
+      font-family: Arial;
+      font-size: 30px;
+      font-weight: bold;
+      padding-left: 19.5px;
+    }
+
+    footer h5 {
+      color: white;
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+
+    footer p {
+      color: white;
+      font-size: 19px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    footer h5 {
+      color: white;
+      font-size: 15px;
+      font-family: sans-serif;
+    }
+
+    .locations-container {
+      display: flex;
+      top: 10px;
+      padding-left: 46px;
+      bottom: 200px;
+    }
+
+
+    footer h4 {
+      display: none;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      font-family: papyrus;
+      animation: move 4s infinite alternate;
+      color: gold;
+    }
+
+
+    footer .logo2 img {
+      width: 180px;
+      height: 14%;
+      position: relative;
+      display: flex;
+      top: 0;
+      left: 700px;
+    }
+
+    /** social icons styling goes here**/
+
+    .facebook-icon,
+    .twitter-icon,
+    .instagram-icon,
+    .linkedin-icon,
+    .youtube-icon {
+      border: 2px solid rgb(188, 188, 19);
+      border-radius: 200px;
+      padding: 5px;
+
+      animation: blinking 0.9s ease infinite;
+      animation-duration: 9s;
+    }
+
+    @keyframes blinking {
+      0% {
+        border: 2px solid red;
+      }
+
+      50% {
+        border: 2px solid black;
+      }
+
+      100% {
+        border: 2px solid gold;
+      }
+    }
+
+    .facebook-icon:hover,
+    .twitter-icon:hover,
+    .instagram-icon:hover,
+    .linkedin-icon:hover,
+    .youtube-icon:hover {
+      color: black;
+      transition: 0.7s ease;
+      animation: none;
+    }
+
+
+
+    /** social icons styling goes here**/
+
+    .social-icons {
+      display: flexbox;
+      left: 655px;
+      bottom: 0;
+      margin-left: 20px;
+      position: relative;
+    }
+
+    .locations-container {
+      display: flex;
+      left: 0;
+      justify-content: space-between;
+    }
+
+    .facebook-icon,
+    .twitter-icon,
+    .instagram-icon,
+    .linkedin-icon,
+    .youtube-icon {
+      border: 2px solid rgb(188, 188, 19);
+      border-radius: 50%;
+      padding: 7px;
+      margin: 5px;
+      animation: blinking 0.9s ease infinite;
+      animation-duration: 9s;
+    }
+
+    @keyframes blinking {
+      0% {
+        border: 2px solid red;
+      }
+
+      50% {
+        border: 2px solid black;
+      }
+
+      100% {
+        border: 2px solid gold;
+      }
+    }
+
+    .facebook-icon:hover,
+    .twitter-icon:hover,
+    .instagram-icon:hover,
+    .linkedin-icon:hover,
+    .youtube-icon:hover {
+      color: black;
+      transition: 0.7s ease;
+      animation: none;
+    }
+
+    .email-icon,
+    .phone-icon {
+      color: white;
+      border: 2px solid gold;
+      border-style: dashed;
+      border-radius: 50px;
+      padding: 2px;
+    }
+
+    /**hover and transition for email and phone icon**/
+    .email-icon:hover,
+    .phone-icon:hover {
+      color: black;
+      border: 2px solid red;
+      border-style: dotted;
+      border-radius: 50px;
+      transition: 07s ease-in-out;
+    }
+
+    /*Responsiveness*/
+
+    /*=========LAPTOPS=======*/
+
+    @media screen and (min-width:1440px) {
+      footer {
+        background: #3c3e3e;
+        overflow: hidden;
+        height: 400px;
+        position: relative;
+        letter-spacing: 0;
+        padding: 10px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+        justify-content: center;
+
+
+      }
+
+      .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        height: auto;
+
+      }
+
+      .colunm {
+        width: 20%;
+      }
+
+      .rows {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      footer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      footer li {
+        list-style-type: ">";
+        color: gold;
+        padding: 6px;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+        font-size: 19px;
+      }
+
+      footer ul li a:hover {
+        color: rgb(0, 0, 0);
+        transition: 0.7s ease;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      footer h3 {
+        color: white;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 19.5px;
+      }
+
+      footer h5 {
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+      }
+
+      footer p {
+        color: white;
+        font-size: 19px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+
+      footer h5 {
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+      }
+
+      .locations-container {
+        display: flex;
+        top: 10px;
+        padding-left: 46px;
+        bottom: 0;
+      }
+
+
+      footer h4 {
+        display: none;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: papyrus;
+        animation: move 4s infinite alternate;
+        color: gold;
+      }
+
+
+      footer .logo2 img {
+        width: 180px;
+        height: 14%;
+        position: relative;
+        display: block;
+        top: 0;
+        left: 700px;
+        margin-bottom: 3rem;
+
+      }
+
+      /** social icons styling goes here**/
+
+      .facebook-icon,
+      .twitter-icon,
+      .instagram-icon,
+      .linkedin-icon,
+      .youtube-icon {
+        border: 2px solid rgb(188, 188, 19);
+        border-radius: 200px;
+        padding: 5px;
+
+        animation: blinking 0.9s ease infinite;
+        animation-duration: 9s;
+      }
+
+      @keyframes blinking {
+        0% {
+          border: 2px solid red;
+        }
+
+        50% {
+          border: 2px solid black;
+        }
+
+        100% {
+          border: 2px solid gold;
+        }
+      }
+
+      .facebook-icon:hover,
+      .twitter-icon:hover,
+      .instagram-icon:hover,
+      .linkedin-icon:hover,
+      .youtube-icon:hover {
+        color: black;
+        transition: 0.7s ease;
+        animation: none;
+      }
+
+
+
+      /** social icons styling goes here**/
+
+      .social-icons {
+        display: flexbox;
+        left: 655px;
+        bottom: 0;
+        margin-left: 20px;
+        position: relative;
+      }
+
+      .locations-container {
+        display: flex;
+        left: 0;
+        justify-content: space-between;
+      }
+
+      .facebook-icon,
+      .twitter-icon,
+      .instagram-icon,
+      .linkedin-icon,
+      .youtube-icon {
+        border: 2px solid rgb(188, 188, 19);
+        border-radius: 50%;
+        padding: 7px;
+        margin: 5px;
+        animation: blinking 0.9s ease infinite;
+        animation-duration: 9s;
+      }
+
+      @keyframes blinking {
+        0% {
+          border: 2px solid red;
+        }
+
+        50% {
+          border: 2px solid black;
+        }
+
+        100% {
+          border: 2px solid gold;
+        }
+      }
+
+      .facebook-icon:hover,
+      .twitter-icon:hover,
+      .instagram-icon:hover,
+      .linkedin-icon:hover,
+      .youtube-icon:hover {
+        color: black;
+        transition: 0.7s ease;
+        animation: none;
+      }
+
+      .email-icon,
+      .phone-icon {
+        color: white;
+        border: 2px solid gold;
+        border-style: dashed;
+        border-radius: 50px;
+        padding: 2px;
+      }
+
+      /**hover and transition for email and phone icon**/
+      .email-icon:hover,
+      .phone-icon:hover {
+        color: black;
+        border: 2px solid red;
+        border-style: dotted;
+        border-radius: 50px;
+        transition: 07s ease-in-out;
+      }
+
+    }
+
+    /*===TABLETS===*/
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+      footer {
+        background: #3c3e3e;
+        height: 900px;
+        position: relative;
+        letter-spacing: 0;
+        padding: 10px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+        justify-content: center;
+
+      }
+
+      .footer-container {
+        display: block;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        height: auto;
+      }
+
+      .rows {
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .colunm {
+        width: 2000px;
+        border-bottom: 1px solid white;
+
+      }
+
+      .locations-container {
+        padding: 20px;
+        position: relative;
+        display: block;
+        overflow: hidden;
+        border-bottom: 1px solid white;
+        top: 0;
+      }
+
+      .paragraph {
+        font-size: 15px;
+        padding: 2px;
+        line-height: 17px;
+        color: white;
+      }
+
+      footer p {
+        color: white;
+      }
+
+
+      footer h4 {
+        font-size: 10px;
+        display: none;
+      }
+
+      footer h3 {
+        font-size: 16px;
+      }
+
+      footer .logo2 img {
+        width: 140px;
+        height: 15%;
+        position: relative;
+        display: flex;
+        top: 4rem;
+        left: 0;
+      }
+
+      .social-icons {
+        display: flexbox;
+        left: 0;
+        bottom: 0;
+        margin-left: 0;
+        position: relative;
+      }
+
+
+      .copyright-text{
+        padding-top: 4rem;
+      }
+    }
+
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+
+      footer {
+        background: #3c3e3e;
+        height: 900px;
+        position: relative;
+        letter-spacing: 0;
+        padding: 10px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+        justify-content: center;
+
+      }
+  .copyright-text{
+        padding-top: 4rem;
+      }
+      .footer-container {
+        display: block;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        height: auto;
+      }
+
+      .rows {
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .colunm {
+        width: 2000px;
+        border-bottom: 1px solid white;
+
+      }
+
+      .locations-container {
+        padding: 20px;
+        position: relative;
+        display: block;
+        overflow: hidden;
+        border-bottom: 1px solid white;
+        top: 0;
+      }
+
+      .paragraph {
+        font-size: 15px;
+        padding: 2px;
+        line-height: 17px;
+        color: white;
+      }
+
+      footer p {
+        color: white;
+      }
+
+
+      footer h4 {
+        font-size: 10px;
+        display: none;
+      }
+
+      footer h3 {
+        font-size: 16px;
+      }
+
+    
+      footer .logo2 img {
+        width: 200px;
+        height: 20%;
+        position: relative;
+        display: flex;
+        top: 4rem;
+        left: 0;
+      }
+
+     footer .social-icons {
+        display: flex;
+        left: 0;
+        bottom: 0;
+        top: 2rem;
+        margin-left: 0;
+        position: relative;
+      }
+    }

@@ -1,0 +1,3761 @@
+.fade-in-who {
+  animation: fadeInAnimation2 ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation2 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.descriptive-bio {
+  opacity: 1;
+  position: absolute;
+  bottom: 2.6rem;
+  opacity: 0.93;
+  text-align: center;
+  max-height: auto;
+  width: 45vh;
+  display: none;
+  z-index: 9999;
+  right: 2px;
+  margin: auto;
+  border-top-right-radius: 20px 40px;
+  border-bottom-left-radius: 20px 40px;
+  font-size: 14px;
+}
+
+.image-text-container {
+  opacity: 1;
+  transition: 0.7s ease-in-out;
+}
+
+.image-text-container:hover .descriptive-bio {
+  display: block;
+  transition: 0.7s ease-in-out;
+}
+
+.displaybtn {
+  width: fit-content;
+  margin: auto;
+}
+
+.displaybtn button {
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0px;
+  font-size: 2rem;
+  border: 0px;
+}
+
+.teambtn {
+  background-color: white;
+  color: gold;
+}
+
+.teambtns {
+  color: white;
+  background: linear-gradient(
+    69.06deg,
+    #ffe601 120%,
+    rgba(220, 4, 4, 3.69) 120%
+  );
+}
+
+#teambtnremove {
+  color: white;
+  background: linear-gradient(
+    69.06deg,
+    #ffe601 120%,
+    rgba(220, 4, 4, 3.69) 120%
+  );
+}
+
+.boardbtn {
+  background-color: white;
+  color: gold;
+}
+
+.boardbtns {
+  color: white;
+  background: linear-gradient(
+    69.06deg,
+    #ffe601 0.3%,
+    rgba(220, 4, 4, 0.69) 200%
+  );
+}
+
+.img-full {
+  height: 100%;
+}
+
+.hover-div {
+  position: relative;
+  /* display: none; */
+}
+
+.hover-div:hover:after {
+  display: block;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+/* Section of the about page */
+.about-order1 {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Images/about/aboutUsBg.png");
+  color: white;
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  margin-top: 0rem;
+}
+
+.about-order1-text {
+  display: flex;
+  border-radius: 10px;
+}
+
+.order1-line-border {
+  width: 0.7rem;
+  background-image: linear-gradient(red 0.03%, gold 110.02%);
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+
+.about-order1-text div h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.about-order1-text div h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
+  background: linear-gradient(
+    89.94deg,
+    rgba(249, 30, 0, 0.31) 0.03%,
+    rgba(249, 237, 0, 0.51) 110.02%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bolder;
+  text-align: left;
+  letter-spacing: 0.07em;
+}
+
+.about-order2-content {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-order2-text-content {
+  margin-top: 1rem;
+}
+
+.about-order2-text h1 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.about-order2-text p {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: left;
+}
+
+.about-order2-text {
+  padding: 2rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 152.5%;
+  color: #141414;
+  text-align: center;
+}
+
+.about-order2-image img {
+  width: 500px;
+  height: 400px;
+}
+
+.about-order3 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  background-image: url("https://res.cloudinary.com/de5sm2jjl/image/upload/v1680961687/TONGSTONG/v0_2691_boxja6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.main-about-order6-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-order3-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vission-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 37px;
+  text-align: center;
+  /* color: rgba(41, 39, 37, 0.4); */
+}
+
+.vision-img {
+  padding-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.vission-img {
+  margin-right: 2rem;
+}
+
+.vission-text-h1 {
+  font-family: "Open Sans";
+}
+
+.cards-structure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid white;
+  border-radius: 25px;
+  height: 300px;
+  width: 350px;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.about-img-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-order3-text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.about-order4-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.about-order4 {
+  background-image: url("https://res.cloudinary.com/de5sm2jjl/image/upload/v1687871411/TONGSTONG/philoso_dtoic3.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 0rem;
+}
+
+.about-order4-text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60vh;
+  opacity: 0.8;
+}
+
+.about-order4-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  width: 80%;
+  height: 40vh;
+  padding: 24px;
+  background-color: black;
+  /* color: #ffffff; */
+  /* opacity: 1; */
+}
+
+.about-order4-text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.2409px;
+  line-height: 37px;
+  text-align: left;
+  color: white;
+  opacity: 1;
+}
+
+.about-order4-text h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34.0511px;
+  line-height: 46px;
+  text-align: center;
+  margin: 0;
+  color: #000000;
+}
+
+.about-order4-text b {
+  background: linear-gradient(
+    69.06deg,
+    #ffe601 70.73%,
+    rgba(220, 4, 4, 0.69) 103%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.about-order6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Images/aboutod6.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 0;
+}
+
+.core-value-h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  margin: 0;
+  font-size: 20px;
+  text-align: left;
+  color: #000000;
+}
+
+.core-value-p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: left;
+  color: rgb(76, 72, 72);
+}
+
+.core-value-h {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 16px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.about-order6-text {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.about-order6-text-content {
+  margin: auto;
+}
+
+.about-order6-content {
+  flex-direction: row;
+}
+
+.about-order6-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  border: 1px solid red;
+  height: 220px;
+  width: 270px;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-order7 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+}
+
+.our-culture {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.centered h1 {
+  width: 100%;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.centered p {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.centered {
+  width: 100%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.ab-socials {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.6rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  border: 1px solid #ffffff;
+}
+
+.ab-social-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-social {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.ab-social {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  border: 1px solid #ffffff;
+}
+
+.ab-social a {
+  font-size: 2.66em;
+  color: black;
+  text-decoration-line: none;
+}
+
+.connect-us {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Slideshow container */
+.mySlides {
+  display: block;
+}
+
+.slideshow-container-body {
+  background-image: url("../Images/connect.png");
+  color: white;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  height: 70vh;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 50%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: gold;
+}
+
+/* Caption text */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.teams-container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+  background-image: linear-gradient(
+    69.06deg,
+    #ffe601 52.73%,
+    rgba(220, 4, 4, 0.69) 103%
+  );
+  transition: transform 0.5s ease;
+}
+
+/* .teams-container::-webkit-scrollbar {
+  display: none;
+} */
+.team-bord-section {
+  margin-top: 2rem;
+}
+
+.our-people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: #ffe601;
+}
+
+.teams-link {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.boards-link {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  text-decoration-line: none;
+}
+
+.my-links {
+  padding: 1rem;
+  padding-left: 1rem;
+}
+
+.profile-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.profile-container-img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+
+/* teams sliders */
+
+.teams-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teams-arrow {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamLeftArrow {
+}
+
+.user-bio {
+  flex-direction: column;
+}
+
+.user-bio-name {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.user-bio-name-board {
+  text-transform: uppercase !important;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.user-bio-text {
+  color: red;
+  font-size: 1rem;
+}
+
+.user-bio-p {
+  margin: 0;
+}
+
+.linkin-profile {
+  background-color: blue;
+  color: gold;
+  border-radius: 3px;
+  border: 1px solid blue;
+  padding: 0.2rem;
+}
+
+.profile-container-text {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.img-fluid {
+  width: 100%;
+  object-fit: cover;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.bio-linkin {
+  margin-left: 10px;
+}
+
+.down-social {
+  margin-top: 3rem;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* new culture */
+.about-order5-img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  /* Optional: Add a border for visual reference */
+  overflow: hidden;
+  /* Optional: Hide any overflowing image content */
+}
+
+.about-order7-img {
+  background-color: #000000;
+  /* background-color: white; */
+  width: 90%;
+  /* margin-right: 2rem; */
+  /* margin-bottom: 5rem; */
+}
+
+.our-culture-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-img7-1 {
+  margin-top: 0rem;
+}
+
+.about-img7-1 img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.about-img5-1 {
+  width: 35%;
+  /* Set the desired width of the div */
+  height: 100%;
+  /* Set the desired height of the div */
+  border: 1px solid black;
+  /* Optional: Add a border for visual reference */
+  overflow: hidden;
+  /* Optional: Hide any overflowing image content */
+}
+
+.about-img5-1 img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.about-order5-pic {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* Set the desired width of the div */
+  height: 100vh;
+  /* Set the desired height of the div */
+  border: 1px solid black;
+  /* Optional: Add a border for visual reference */
+  overflow: hidden;
+  /* Optional: Hide any overflowing image content */
+  margin-left: 0rem;
+  padding: 0.2rem;
+}
+
+.about-order5-pic1 {
+  width: 100%;
+  /* Set the desired width of the div */
+  height: 50vh;
+  /* Set the desired height of the div */
+  border: 1px solid black;
+  /* Optional: Add a border for visual reference */
+  overflow: hidden;
+  /* Optional: Hide any overflowing image content */
+}
+
+.about-order5-pic1 img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  /* margin: auto; */
+}
+
+.about-order5-pic2 {
+  width: 100%;
+  /* Set the desired width of the div */
+  height: 50vh;
+  /* Set the desired height of the div */
+  border: 1px solid black;
+  /* Optional: Add a border for visual reference */
+  /* overflow: hidden;  */
+  /* Optional: Hide any overflowing image content */
+}
+
+.about-order5-pic2 img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  /* margin: auto; */
+}
+
+.container-img7-hover {
+  position: relative;
+}
+
+.container-img7-hover img {
+  transition: opacity 0.3s ease;
+}
+
+.container-img7-hover:hover img {
+  opacity: 0.5;
+  /* Set the desired opacity for the image on hover */
+}
+
+.container-img7-hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: black; Optional: Add a dimming overlay color */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  /* Smooth transition for the overlay opacity change */
+}
+
+.container-img7-hover:hover::after {
+  opacity: 0.3;
+  /* Set the desired opacity for the dimming overlay on hover */
+}
+
+.container-img7-text {
+  position: relative;
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 500px) {
+}
+
+@media only screen and (max-width: 320px) {
+  .about-order3 {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    /* display: none;       */
+    height: 150vh;
+    margin-top: 1rem;
+    /* margin-bottom: 30%; */
+  }
+
+  .ceo-image {
+    width: 50px;
+    height: 70px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 9px;
+  }
+
+  .main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .about-order1 {
+    width: 100%;
+    height: 60vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .about-order1-text div h3 {
+    font-size: 0.7rem;
+  }
+
+  .about-order1-text div h1 {
+    font-size: 1.3rem;
+    padding-right: 1rem;
+  }
+
+  .about-order2-image img {
+    height: 200px;
+    width: 300px;
+    position: relative;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .about-order2-content {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .about-order2-text-content {
+    width: 100%;
+    display: flex;
+    margin-top: 0.1rem;
+    padding: 0.5rem;
+  }
+
+  .about-order2-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #141414;
+    width: 100%;
+  }
+
+  .about-order3 {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    /* display: none;       */
+    height: 110vh;
+    margin-top: 1rem;
+    /* margin-bottom: 30%; */
+  }
+
+  .about-order3-content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .vission-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.6rem;
+    line-height: 27px;
+    text-align: center;
+    /* color: rgba(41, 39, 37, 0.4); */
+  }
+
+  .vision-img {
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .vission-img {
+    margin-right: 2rem;
+  }
+
+  .vission-text-h1 {
+    font-family: "Open Sans";
+    font-size: 1rem;
+  }
+
+  .cards-structure {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 250px;
+    width: 260px;
+    position: relative;
+    right: 1.2rem;
+  }
+
+  .about-order3-text-content {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-order4-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .about-order4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0rem;
+  }
+
+  .about-order4-text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30vh;
+    background-color: black;
+    /* background-color:grey; */
+    /* color: #ffffff; */
+    opacity: 0.8;
+  }
+
+  .about-order4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    /* color: #ffffff; */
+    opacity: 0.9;
+  }
+
+  .about-order4-text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    opacity: 1;
+  }
+
+  .about-order4-text h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34.0511px;
+    line-height: 46px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+  }
+
+  .about-order4-text b {
+    background: linear-gradient(
+      69.06deg,
+      #ffe601 70.73%,
+      rgba(220, 4, 4, 0.69) 103%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+    /* -webkit-text-stroke: 1px white; */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  /* .about-order5 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  } */
+
+  .about-order5-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-img5-1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-img5-1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .about-order5-pic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+    margin-left: 0rem;
+    padding: 0.2rem;
+  }
+
+  .about-order5-pic1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order5-pic2 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    /* overflow: hidden;  */
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic2 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order6 {
+    display: flex;
+    height: 150vh;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .core-value-h1 {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(30, 30, 30);
+  }
+
+  .core-value-p {
+    font-size: 16px;
+  }
+
+  .core-value-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: center;
+    color: rgb(30, 30, 30);
+  }
+
+  .about-order6-text {
+    display: flex;
+    flex-direction: column;
+
+    color: #ffffff;
+  }
+
+  .about-order6-text-content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  /*   
+  .centered h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+  .centered p {
+    width: fit-content;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  */
+  .about-order6-content {
+    flex-direction: column;
+  }
+
+  .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    margin-top: 0rem;
+  }
+
+  .our-cultures-content {
+    margin-top: 0rem;
+    padding: 0rem;
+  }
+
+  .about-order7-img {
+    background-color: #000000;
+    /* background-color: white; */
+    width: 95%;
+    height: 100%;
+    /* margin-bottom: 5rem; */
+  }
+
+  .our-culture-img {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .about-img7-1 img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 0;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .container-img7-text {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    width: 100%;
+  }
+
+  .centered h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  .centered p {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .displaybtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .displaybtn button {
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 1rem;
+    border: 0px;
+
+    /* color: gold ;
+    background-color: white; */
+  }
+
+  .profile-container {
+    width: 100%;
+    height: 55vh;
+    margin-top: 5rem;
+  }
+
+  .profile-container-img {
+    width: 230px;
+    height: 230px;
+    margin-top: 0.1rem;
+  }
+
+  .user-bio-name {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-name-board {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-text {
+    color: red;
+    font-size: 1rem;
+  }
+
+  .slideshow-container-body {
+    width: 100%;
+    padding-top: 0rem;
+    color: white;
+    height: 55vh;
+  }
+
+  .slideshow-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+  }
+
+  .ab-socials {
+    background-color: #ffe601;
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .ab-social-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ab-social {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .ab-social h3 {
+    font-size: 4rem;
+  }
+
+  .ab-social a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration-line: none;
+  }
+
+  /* .teams-container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    background-image: linear-gradient(
+      69.06deg,
+      #ffe601 52.73%,
+      rgba(220, 4, 4, 0.69) 103%
+    );
+  } */
+  .connect-us {
+    padding-top: 0rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+
+  .main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .about-order1 {
+    max-width: 100%;
+    height: 70vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .about-order1-text div h3 {
+    font-size: 1rem;
+  }
+
+  .about-order1-text div h1 {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+
+  .about-order2-content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+    width: 100%;
+  }
+
+  .about-order2-text-content {
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+
+  .about-order2-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #141414;
+    width: 100%;
+  }
+
+  .about-order3 {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    /* display: none;       */
+    height: 130vh;
+    margin-top: 1rem;
+    /* margin-bottom: 30%; */
+  }
+
+  .about-order3-content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .vission-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 37px;
+    text-align: center;
+    /* color: rgba(41, 39, 37, 0.4); */
+  }
+
+  .vision-img {
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .vission-img {
+    margin-right: 2rem;
+  }
+
+  .vission-text-h1 {
+    font-family: "Open Sans";
+    font-size: 1rem;
+  }
+
+  .cards-structure {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 270px;
+    width: 300px;
+    /* padding: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem; */
+    /* position: space-between; */
+  }
+
+  .about-order3-text-content {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-order4-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+
+  .about-order4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0rem;
+  }
+
+  .about-order4-text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+    /* background-color:grey; */
+    /* color: #ffffff; */
+    opacity: 0.8;
+  }
+
+  .about-order4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    width: 80%;
+    height: 50vh;
+    background-color: black;
+    /* color: #ffffff; */
+    /* opacity: 1; */
+  }
+
+  .about-order4-text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 37px;
+    /* text-align: center; */
+    color: white;
+    opacity: 1;
+  }
+
+  .about-order4-text h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34.0511px;
+    line-height: 46px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+  }
+
+  .about-order4-text b {
+    background: linear-gradient(
+      69.06deg,
+      #ffe601 70.73%,
+      rgba(220, 4, 4, 0.69) 103%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+    /* -webkit-text-stroke: 1px white; */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .about-order5 {
+    /* display: none; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .about-order5-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-img5-1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-img5-1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .about-order5-pic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+    margin-left: 0rem;
+    padding: 0.2rem;
+  }
+
+  .about-order5-pic1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order5-pic2 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    /* overflow: hidden;  */
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic2 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order6 {
+    height: 150vh;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .core-value-h1 {
+    font-size: 20px;
+    color: black;
+  }
+
+  .core-value-p {
+    font-size: 16px;
+  }
+
+  .core-value-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+
+  .about-order6-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    color: #ffffff;
+  }
+
+  .about-order6-text-content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .about-order6-content {
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    margin-top: 0rem;
+  }
+
+  .our-cultures-content {
+    margin-top: 0rem;
+    padding: 0rem;
+  }
+
+  .about-order7-img {
+    background-color: #000000;
+    /* background-color: white; */
+    width: 90%;
+    height: 100%;
+    /* margin-bottom: 5rem; */
+  }
+
+  .our-culture-img {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .about-img7-1 img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 0;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .container-img7-text {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    width: 100%;
+  }
+
+  .centered h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  .centered p {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .displaybtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .displaybtn button {
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 1rem;
+    border: 0px;
+
+    /* color: gold ;
+    background-color: white; */
+  }
+
+  .profile-container {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .profile-container-img {
+    width: 230px;
+    height: 230px;
+    margin-top: 0.1rem;
+  }
+
+  .user-bio-name {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-name-board {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-text {
+    color: red;
+    font-size: 1rem;
+  }
+
+  .slideshow-container-body {
+    width: 100%;
+    padding-top: 0rem;
+    color: white;
+    height: 55vh;
+  }
+
+  .slideshow-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+  }
+
+  .ab-socials {
+    background-color: #ffe601;
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .ab-social-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ab-social {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .ab-social h3 {
+    font-size: 4rem;
+  }
+
+  .ab-social a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration-line: none;
+  }
+
+  .teams-container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    background-image: linear-gradient(
+      69.06deg,
+      #ffe601 52.73%,
+      rgba(220, 4, 4, 0.69) 103%
+    );
+  }
+
+  .connect-us {
+    padding-top: 0rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 14px;
+  }
+
+  .main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+
+  .about-order1 {
+    max-width: 100%;
+    height: 80vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .about-order1-text div h3 {
+    font-size: 2rem;
+  }
+
+  .about-order1-text div h1 {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+
+  .about-order2-content {
+    width: 95%;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+  }
+
+  .about-order2-text-content {
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+
+  .about-order2-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #141414;
+    width: 100%;
+  }
+
+  .about-order2-image {
+    width: 70%;
+    height: 100%;
+  }
+
+  .about-order2-image img {
+    width: 500px;
+    height: 400px;
+  }
+
+  .about-order3 {
+    display: flex;
+    width: 100%;
+    /* display: none;       */
+    height: 100vh;
+    margin-top: 1rem;
+    /* margin-bottom: 30%; */
+  }
+
+  .about-order3-content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .vission-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 37px;
+    text-align: center;
+    /* color: rgba(41, 39, 37, 0.4); */
+  }
+
+  .vision-img {
+    padding-top: 0.8rem;
+    margin-right: 1rem;
+  }
+
+  .vission-img {
+    margin-right: 2rem;
+  }
+
+  .vission-text-h1 {
+    font-family: "Open Sans";
+    font-size: 1rem;
+  }
+
+  .cards-structure {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 300px;
+    width: 350px;
+    padding: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    /* position: space-between; */
+  }
+
+  .about-order3-text-content {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-order4-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+
+  .about-order4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0rem;
+  }
+
+  .about-order4-text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+    /* background-color:grey; */
+    /* color: #ffffff; */
+    opacity: 0.8;
+  }
+
+  .about-order4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    height: 40vh;
+    background-color: black;
+    /* color: #ffffff; */
+    /* opacity: 1; */
+  }
+
+  .about-order4-text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.2409px;
+    line-height: 37px;
+    /* text-align: center; */
+    color: white;
+    opacity: 1;
+  }
+
+  .about-order4-text h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34.0511px;
+    line-height: 46px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+  }
+
+  .about-order4-text b {
+    background: linear-gradient(
+      69.06deg,
+      #ffe601 70.73%,
+      rgba(220, 4, 4, 0.69) 103%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+    /* -webkit-text-stroke: 1px white; */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .about-order5 {
+    /* display: none; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .about-order5-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-img5-1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-img5-1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .about-order5-pic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+    margin-left: 0rem;
+    padding: 0.2rem;
+  }
+
+  .about-order5-pic1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order5-pic2 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    /* overflow: hidden;  */
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic2 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order6 {
+    height: 170vh;
+    padding-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .core-value-h1 {
+    font-size: 18px;
+  }
+
+  .core-value-p {
+    font-size: 16px;
+  }
+
+  .core-value-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 41px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+
+  .about-order6-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    color: #ffffff;
+  }
+
+  .about-order6-text-content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    margin-top: 0rem;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .our-cultures-content {
+    margin-top: 0rem;
+    padding: 0rem;
+  }
+
+  .about-order7-img {
+    background-color: #000000;
+    /* background-color: white; */
+    width: 90%;
+    height: 100%;
+    /* margin-bottom: 5rem; */
+  }
+
+  .our-culture-img {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .about-img7-1 img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 0;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .container-img7-text {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    width: 100%;
+  }
+
+  .centered h1 {
+    width: 100%;
+    font-size: 3rem;
+    margin: 0.5rem;
+  }
+
+  .centered p {
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+
+  .displaybtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .displaybtn button {
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 1rem;
+    border: 0px;
+
+    /* color: gold ;
+    background-color: white; */
+  }
+
+  .profile-container {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .profile-container-img {
+    width: 230px;
+    height: 230px;
+    margin-top: 0.1rem;
+  }
+
+  .user-bio-name {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-name-board {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-text {
+    color: red;
+    font-size: 1rem;
+  }
+
+  .slideshow-container-body {
+    width: 100%;
+    padding-top: 0.5rem;
+    color: white;
+    height: 55vh;
+  }
+
+  .slideshow-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+  }
+
+  .ab-socials {
+    background-color: #ffe601;
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .ab-social-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ab-social {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+
+  .ab-social h3 {
+    font-size: 4rem;
+  }
+
+  .ab-social a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration-line: none;
+  }
+
+  .connect-us {
+    padding-top: 0rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 4000px) {
+  .main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+
+  .about-order1 {
+    width: 100%;
+    height: 85vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .about-order1-text div h3 {
+    font-size: 2rem;
+  }
+
+  .about-order1-text div h1 {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+
+  .about-order5 {
+    /* display: none; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-height: 0px) and (max-height: 375px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 9px;
+  }
+
+  .main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .about-order1 {
+    width: 100%;
+    height: 70vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .about-order1-text div h3 {
+    font-size: 0.7rem;
+  }
+
+  .about-order1-text div h1 {
+    font-size: 1.3rem;
+    padding-right: 1rem;
+  }
+
+  .about-order2-content {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+  }
+
+  .about-order2-text-content {
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+
+  .about-order2-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #141414;
+    width: 100%;
+  }
+
+  .about-order2-image {
+    width: 80%;
+    height: 100%;
+  }
+
+  .about-order2-image img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .about-order3 {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    /* display: none;       */
+    height: 120vh;
+    margin-top: 1rem;
+    margin-bottom: 0%;
+  }
+
+  .about-order3-content {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .vission-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.6rem;
+    line-height: 27px;
+    text-align: center;
+    /* color: rgba(41, 39, 37, 0.4); */
+  }
+
+  .vision-img {
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .vission-img {
+    margin-right: 2rem;
+  }
+
+  .vission-text-h1 {
+    font-family: "Open Sans";
+    font-size: 1rem;
+  }
+
+  .cards-structure {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 350px;
+    width: 260px;
+    /* padding: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem; */
+    /* position: space-between; */
+  }
+
+  .about-order3-text-content {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-order4-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .about-order4-text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    /* text-align: center; */
+    color: rgba(41, 39, 37, 0.4);
+    margin-bottom: 3rem;
+  }
+
+  .about-order4-text h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+    padding-top: 2rem;
+  }
+
+  .about-order5 {
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .about-order5-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-img5-1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-img5-1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .about-order5-pic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+    margin-left: 0rem;
+    padding: 0.2rem;
+  }
+
+  .about-order5-pic1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order5-pic2 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    /* overflow: hidden;  */
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic2 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order6 {
+    width: 100%;
+    height: 100vh;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .core-value-h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .core-value-p {
+    font-size: 16px;
+  }
+  .core-value-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    color: #f5f5f5;
+  } */
+
+  /* .about-order6-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .about-order6-text-content {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  } */
+  /*   
+  .centered h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+  .centered p {
+    width: fit-content;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  */
+  /* .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    margin-top: 0rem;
+  } */
+  .core-value-h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .core-value-p {
+    font-size: 12px;
+  }
+
+  .core-value-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: rgb(30, 30, 30);
+  }
+
+  .about-order6-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    color: #ffffff;
+  }
+
+  .about-order6-text-content {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  /*   
+  .centered h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+  .centered p {
+    width: fit-content;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  */
+  .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    margin-top: 0rem;
+  }
+
+  .about-order7 {
+    width: 100%;
+    /* height: 500vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+  }
+
+  .our-cultures-content {
+    margin-top: 0rem;
+    padding: 0rem;
+  }
+
+  .about-order7-img {
+    background-color: #000000;
+    /* background-color: white; */
+    width: 90%;
+    height: 100%;
+    /* margin-bottom: 5rem; */
+  }
+
+  .our-culture-img {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .about-img7-1 img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 0;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .container-img7-text {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+
+  .centered {
+    width: 100%;
+  }
+
+  .centered h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  .centered p {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .displaybtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .displaybtn button {
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 1rem;
+    border: 0px;
+
+    /* color: gold ;
+    background-color: white; */
+  }
+
+  .team-bord-section {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .profile-container {
+    width: 100%;
+    height: 50vh;
+    margin-top: 8rem;
+  }
+
+  .profile-container-img {
+    width: 230px;
+    height: 230px;
+    margin-top: 0.1rem;
+  }
+
+  .user-bio-name {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-name-board {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-text {
+    color: red;
+    font-size: 1rem;
+  }
+
+  .slideshow-container-body {
+    width: 100%;
+    padding-top: 0rem;
+    color: white;
+    height: 75vh;
+  }
+
+  .slideshow-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+  }
+
+  .ab-socials {
+    background-color: #ffe601;
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .ab-social-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ab-social {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .ab-social h3 {
+    font-size: 4rem;
+  }
+
+  .ab-social a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration-line: none;
+  }
+
+  .connect-us {
+    padding-top: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+
+@media (min-height: 376px) and (max-height: 500px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 9px;
+  }
+
+  .main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .about-order1 {
+    width: 100%;
+    height: 70vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .about-order1-text div h3 {
+    font-size: 0.7rem;
+  }
+
+  .about-order1-text div h1 {
+    font-size: 1.3rem;
+    padding-right: 1rem;
+  }
+
+  .about-order2-content {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .about-order2-text-content {
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+
+  .about-order2-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #141414;
+    width: 100%;
+  }
+
+  .about-order2-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-order2-image img {
+    width: 90%;
+    height: 400px;
+  }
+
+  .about-order3 {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    /* display: none;       */
+    height: 100vh;
+    margin-top: 1rem;
+    margin-bottom: 0%;
+  }
+
+  .about-order3-content {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .vission-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.6rem;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(41, 39, 37, 0.4);
+  }
+
+  .vision-img {
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .vission-img {
+    margin-right: 2rem;
+  }
+
+  .vission-text-h1 {
+    font-family: "Open Sans";
+    font-size: 1rem;
+  }
+
+  .cards-structure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 250px;
+    width: 260px;
+    /* padding: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem; */
+    /* position: space-between; */
+  }
+
+  .about-order3-text-content {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-order4-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+
+  .about-order4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0rem;
+  }
+
+  .about-order4-text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+    /* background-color:grey; */
+    /* color: #ffffff; */
+    opacity: 0.8;
+  }
+
+  .about-order4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    height: 40vh;
+    background-color: black;
+    /* color: #ffffff; */
+    /* opacity: 1; */
+  }
+
+  .about-order4-text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.2409px;
+    line-height: 37px;
+    /* text-align: center; */
+    color: white;
+    opacity: 1;
+  }
+
+  .about-order4-text h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34.0511px;
+    line-height: 46px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+  }
+
+  .about-order4-text b {
+    background: linear-gradient(
+      69.06deg,
+      #ffe601 70.73%,
+      rgba(220, 4, 4, 0.69) 103%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+    /* -webkit-text-stroke: 1px white; */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .about-order5 {
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .about-order5-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-img5-1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-img5-1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .about-order5-pic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+    margin-left: 0rem;
+    padding: 0.2rem;
+  }
+
+  .about-order5-pic1 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    overflow: hidden;
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order5-pic2 {
+    width: 100%;
+    /* Set the desired width of the div */
+    height: 50vh;
+    /* Set the desired height of the div */
+    border: 1px solid black;
+    /* Optional: Add a border for visual reference */
+    /* overflow: hidden;  */
+    /* Optional: Hide any overflowing image content */
+  }
+
+  .about-order5-pic2 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    /* margin: auto; */
+  }
+
+  .about-order6 {
+    height: 100vh;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .core-value-h1 {
+    font-size: 16px;
+  }
+
+  .core-value-p {
+    font-size: 12px;
+  }
+
+  .core-value-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+
+  .about-order6-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    color: #ffffff;
+  }
+
+  .about-order6-text-content {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  /*   
+  .centered h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+  .centered p {
+    width: fit-content;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  */
+  .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 200px;
+    margin-top: 0rem;
+  }
+
+  .about-order7 {
+    width: 100%;
+    /* height: 500vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+  }
+
+  .our-cultures-content {
+    margin-top: 0rem;
+    padding: 0rem;
+  }
+
+  .about-order7-img {
+    background-color: #000000;
+    /* background-color: white; */
+    width: 90%;
+    height: 100%;
+    /* margin-bottom: 5rem; */
+  }
+
+  .our-culture-img {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .about-img7-1 img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 0;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+
+  .container-img7-text {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+
+  .centered {
+    width: 100%;
+  }
+
+  .centered h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  .centered p {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .displaybtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .displaybtn button {
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 1rem;
+    border: 0px;
+
+    /* color: gold ;
+    background-color: white; */
+  }
+
+  .team-bord-section {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .profile-container {
+    width: 100%;
+    height: 50vh;
+    margin-top: 8rem;
+  }
+
+  .profile-container-img {
+    width: 230px;
+    height: 230px;
+    margin-top: 0.1rem;
+  }
+
+  .user-bio-name {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-name-board {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .user-bio-text {
+    color: red;
+    font-size: 1rem;
+  }
+
+  .slideshow-container-body {
+    width: 100%;
+    padding-top: 0rem;
+    color: white;
+    height: 75vh;
+  }
+
+  .slideshow-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+  }
+
+  .ab-socials {
+    background-color: #ffe601;
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .ab-social-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ab-social {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .ab-social h3 {
+    font-size: 4rem;
+  }
+
+  .ab-social a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration-line: none;
+  }
+
+  .connect-us {
+    padding-top: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+
+@media (min-height: 5px) and (max-height: 8px) {
+  /* .about-order2-content {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  } */
+
+  .about-order2-text-content {
+    /* flex-direction: column; */
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+
+  .about-order2-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #141414;
+    width: 100%;
+  }
+
+  .about-order3 {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    /* display: none;       */
+    height: 150vh;
+    margin-top: 1rem;
+    /* margin-bottom: 30%; */
+  }
+
+  .about-order3-content {
+    width: 100%;
+    height: 120vh;
+    flex-direction: column;
+  }
+
+  .about-order2-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-order2-image img {
+    width: 90%;
+    height: 400px;
+  }
+
+  .vission-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.6rem;
+    line-height: 27px;
+    text-align: center;
+    /* color: rgba(41, 39, 37, 0.4); */
+  }
+
+  .vision-img {
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .vission-img {
+    margin-right: 2rem;
+  }
+
+  .vission-text-h1 {
+    font-family: "Open Sans";
+    font-size: 1rem;
+  }
+
+  .cards-structure {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+    /* padding: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem; */
+    /* position: space-between; */
+  }
+
+  .about-order3-text-content {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-order6 {
+    height: 170vh;
+    padding-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+  }
+
+  .core-value-h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .core-value-p {
+    font-size: 16px;
+  }
+
+  .core-value-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+
+  .about-order6-text {
+    display: flex;
+    flex-direction: column;
+
+    color: #ffffff;
+  }
+
+  .about-order6-text-content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    margin-top: 0rem;
+  }
+}
+@media (min-height: 501px) and (max-height: 800px) {
+  .about-order6 {
+    height: 130vh;
+    padding-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-order6-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    margin-top: 0rem;
+  }
+}
+
+@media (min-height: 900px) {
+  .about-order1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .descriptive-bio {
+  opacity: 1;
+  position: absolute;
+  bottom: 2.6rem;
+  opacity: 0.93;
+  text-align: center;
+  max-height: auto;
+  width: auto;
+  display: none;
+  z-index: 9999;
+  right: 2px;
+  margin: auto;
+  border-top-right-radius: 20px 40px;
+  border-bottom-left-radius: 20px 40px;
+  font-size: 14px;
+}
+.image-text-container:hover .descriptive-bio {
+  display: none;
+  transition: 0.7s ease-in-out;
+}
+
+}

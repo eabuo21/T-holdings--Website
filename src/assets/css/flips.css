@@ -1,0 +1,362 @@
+.front-card {
+  width: 260px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 4rem;
+  cursor: pointer;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: currentColor 1px 1px 0 goldenrod;
+}
+
+.heading-text-icon-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: auto;
+  height: auto;
+}
+
+.heading-text-icon-container .heading-text {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "open sans";
+  color: white;
+}
+
+.heading-text-icon-container .under-text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+  position: relative;
+  margin-bottom: 1.5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.heading-text-icon-container .icon-image img {
+  width: auto;
+  height: auto;
+  color: gold;
+}
+
+/** styling s for the back card that flips to show the other contents on the cards **/
+.back-card {
+ display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+     border-radius: 14px;
+        box-sizing: border-box;
+        padding: 1rem;
+        margin: 1rem;
+        width: 230px;
+        height: 200px;
+        transition: all 0.3s ease;
+        filter: brightness(1);
+        background: black;
+}
+
+.back-card .description-text {
+  color: white;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: 500;
+}
+
+.flex-container-items {
+  display: flex;
+  flex-direction: row;
+  row-gap: 3rem;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+  overflow-x: auto;
+  width: 100%;
+
+}
+
+.normalize-items {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  row-gap: 3rem;
+}
+
+
+
+.view-button-pages {
+  background: transparent;
+  color: red;
+  font-weight: 700;
+  font-family: sans-serif;
+  border: 1px solid gold;
+  width: auto;
+  padding: 0.6rem;
+}
+
+.view-button-pages :hover {
+  color: white;
+}
+
+.view-button-pages a:hover {
+  color: white;
+  font-weight: bold;
+  font-family: "open sans";
+}
+
+.view-button-pages a {
+  color: red;
+  text-decoration: dashed;
+}
+
+/**Mobile responsiveness **/
+@media only screen and (max-width: 768px) {
+  .business-card{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 4rem;
+    cursor: pointer;
+   border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: currentColor 1px 1px 0 goldenrod;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heading-text-icon-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+
+  .heading-text-icon-container .heading-text {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "open sans";
+    color: white;
+  }
+
+  .heading-text-icon-container .under-text {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    position: relative;
+    margin-bottom: 1.5rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .heading-text-icon-container .icon-image img {
+    width: auto;
+    height: auto;
+    color: gold;
+  }
+
+
+
+
+
+ .contents .arrow-down,
+  .arrow-up{
+   display: none;
+  }
+  /** styling s for the back card that flips to show the other contents on the cards **/
+  .back-card {
+    width: 350px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: currentColor 1px 1px 0 goldenrod;
+    background: black;
+    padding: 6px;
+  }
+
+  .back-card .description-text {
+    color: white;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .flex-container-items {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .normalize-items {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    row-gap: 3rem;
+  }
+
+  .view-button-pages {
+    background: transparent;
+    color: red;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: 1px solid gold;
+    width: auto;
+    padding: 0.6rem;
+  }
+
+  .view-button-pages :hover {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .business-card {
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    cursor: pointer;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: currentColor 1px 1px 0 goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heading-text-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+
+  .heading-text-icon-container .heading-text {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "open sans";
+    color: white;
+  }
+
+  .heading-text-icon-container .under-text {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    position: relative;
+    margin-bottom: 1.5rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .heading-text-icon-container .icon-image img {
+    width: auto;
+    height: auto;
+    color: gold;
+  }
+
+  /** styling s for the back card that flips to show the other contents on the cards **/
+  .back-card {
+    width: 280px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: currentColor 1px 1px 0 goldenrod;
+    background: black;
+    padding: 6px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .back-card .description-text {
+    color: white;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .flex-container-items {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .normalize-items {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    row-gap: 3rem;
+  }
+
+  .view-button-pages {
+    background: transparent;
+    color: red;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: 1px solid gold;
+    width: auto;
+    padding: 0.6rem;
+  }
+
+  .view-button-pages :hover {
+    color: white;
+  }
+}

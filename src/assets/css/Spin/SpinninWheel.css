@@ -1,0 +1,43 @@
+/* styles.css */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning-wheel {
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid gold;
+  border-top: 2px solid #ff1e00;
+  border-bottom: 2px solid black;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  justify-content: center;
+  top: 45%;
+  left: 45%;
+  position: absolute
+}
+
+@media (max-width: 768px) {
+
+  .spinning-wheel {
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid gold;
+  border-top: 2px solid #ff1e00;
+  border-bottom: 2px solid black;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  justify-content: center;
+  top: 45%;
+  left: 7.3rem;
+ 
+  position: absolute
+}
+}
+

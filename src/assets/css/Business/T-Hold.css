@@ -1,0 +1,842 @@
+.t-hold-hero-container {
+  background: #59229f;
+  display: flex;
+  height: auto;
+  overflow: hidden;
+}
+.t-hold-hero-container .txt1 {
+  padding-top: 8rem;
+  position: absolute;
+  left: 5rem;
+  color: white;
+}
+.hold-mobile-image {
+  display: none;
+}
+.exph {
+  position: relative;
+  margin-left: 3.5rem;
+  top: 5rem;
+
+  color: rgb(30, 30, 30);
+}
+
+.half-line-text {
+  color: red;
+  font-weight: bold;
+  font-family: open sans;
+  font-size: 24px;
+  border-top: 2px solid red;
+  width: 7.5em;
+}
+
+.txt1 .hold-h1 {
+  font-family: open sans;
+  font-size: 60px;
+  font-weight: 800;
+}
+.txt1 .body-text-hold {
+  font-size: 24px;
+  font-family: "open sans";
+
+  width: 55%;
+}
+
+.hold-sub-hero {
+  background-color: f7f7f7;
+  display: flex;
+  position: relative;
+  height: auto;
+}
+
+.hold-sub-hero text {
+  width: 55%;
+  font-family: open sans;
+  font-weight: 700;
+  position: relative;
+  top: 10.9rem;
+  margin-left: 3.5rem;
+  margin-right: 1.5rem;
+  font-size: 40px;
+  text-align: left;
+}
+.hold-sub-hero .red-txt {
+  color: red;
+}
+.hold-desktop-image {
+  object-fit: contain;
+  min-width: 70em;
+  height: 80vh;
+  top: 2rem;
+  left: 44.8%;
+  margin-left: 0.5rem;
+  position: relative;
+}
+
+.hold-sub-hero img {
+  width: 50%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+#hold-slide-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 0;
+}
+.hold-slide-section .slide-desktop-image {
+  width: 20em;
+  height: auto;
+  padding-top: 15px;
+}
+
+.hold-slide-section .slide-mobile-image {
+  display: none;
+}
+
+.div-1,
+.div-2,
+.div-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.red-txt1,
+.red-txt2,
+.red-txt3 {
+  color: red;
+  font-family: "open sans";
+  font-weight: 700;
+}
+.txt1,
+.txt2,
+.txt3 {
+  font-family: "open sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*Responsiveness*/
+/*Laptops*/
+
+@media screen and (min-width: 1440px) {
+  .t-hold-hero-container {
+    background: #59229f;
+    display: flex;
+    min-height: 95vh;
+    overflow: hidden;
+  }
+  .t-hold-hero-container .txt1 {
+    padding-top: 8rem;
+    position: absolute;
+    left: 5rem;
+    color: white;
+  }
+
+  .exph {
+    position: relative;
+    right: 0.5rem;
+    top: 5rem;
+
+    color: rgb(30, 30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 24px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .hold-h1 {
+    font-family: open sans;
+    font-size: 60px;
+    font-weight: 800;
+  }
+  .txt1 .body-text-hold {
+    font-size: 25px;
+    font-family: open sans;
+    font-weight: bold;
+  }
+
+  .hold-sub-hero {
+    background-color: f7f7f7;
+    display: flex;
+    position: relative;
+    height: auto;
+  }
+
+  .hold-sub-hero text {
+    font-family: open sans;
+    font-weight: 700;
+    position: relative;
+    top: 10.9rem;
+
+    text-align: left;
+  }
+  .hold-sub-hero .red-txt {
+    color: red;
+  }
+  .hold-desktop-image {
+    object-fit: contain;
+    min-width: 70em;
+    height: 81vh;
+    top: 5rem;
+    left: 49.8%;
+    position: relative;
+  }
+
+  .hold-sub-hero img {
+    width: 50%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  #hold-slide-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0;
+  }
+
+  .hold-slide-section .slide-desktop-image {
+    width: 20em;
+    height: auto;
+    padding-top: 15px;
+  }
+
+  .hold-slide-section .slide-mobile-image {
+    display: none;
+  }
+
+  .hold-slide-section h2 {
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 30px;
+    position: relative;
+    left: 6em;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .t-hold-hero-container {
+    background: #59229f;
+    display: flex;
+    min-height: auto;
+    overflow: hidden;
+  }
+  .t-hold-hero-container .txt1 {
+    padding-top: 8rem;
+    position: absolute;
+    left: 3rem;
+    color: white;
+  }
+
+  .half-line-text {
+    color: red;
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 24px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .hold-h1 {
+    font-family: open sans;
+    font-size: 60px;
+    font-weight: 800;
+  }
+  .txt1 .body-text-hold {
+    font-size: 25px;
+    font-family: "open sans";
+    font-weight: bold;
+  }
+
+  .hold-sub-hero {
+    background-color: f7f7f7;
+    display: flex;
+    position: relative;
+    height: auto;
+  }
+
+  .hold-sub-hero .red-txt {
+    color: red;
+  }
+  .hold-desktop-image {
+    object-fit: contain;
+    min-width: 70em;
+    height: 81vh;
+    top: 5rem;
+    left: 39.5%;
+    position: relative;
+  }
+
+  .hold-sub-hero img {
+    width: 50%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  #hold-slide-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 0;
+  }
+
+  .hold-slide-section .slide-desktop-image {
+    width: 20em;
+    height: auto;
+    padding-top: 15px;
+  }
+
+  .hold-slide-section .slide-mobile-image {
+    display: none;
+  }
+
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: open sans;
+    font-size: 18px;
+  }
+  .hold-slide-section h2 {
+    font-weight: bold;
+    font-family: open sans;
+    font-size: 30px;
+    position: relative;
+    left: 6em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .t-hold-hero-container {
+    background: #59229f;
+    display: block;
+    height: 600px;
+    left: 0;
+  }
+
+  .t-hold-hero-container .txt1 {
+    top: 6.3rem;
+    position: relative;
+    left: 7px;
+
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+    right: 2rem;
+    top: 0;
+
+    color: rgb(30,  30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .hold-h1 {
+    font-family: "open sans";
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-hold {
+    font-family: "open sans";
+    text-align: left;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .hold-sub-hero {
+    background-color: f7f7f7;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 27rem;
+    justify-content: center;
+    top: 0;
+    align-items: center;
+  }
+
+  .hold-sub-hero text {
+    font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 1.2rem;
+    font-size: 20px;
+    width: 100%;
+    left: 0.5rem;
+  }
+  .hold-sub-hero .red-txt {
+    color: red;
+  }
+  .hold-desktop-image {
+    display: none;
+  }
+  .hold-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .hold-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .hold-slide-section {
+    display: flex;
+    flex-direction: row;
+    row-gap: 1.5rem;
+
+    justify-content: space-between;
+    align-items: start;
+
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .hold-slide-section .slide-desktop-image {
+    width: 24em;
+    height: 18em;
+    padding-top: 15px;
+    border-radius: 14px;
+    display: none;
+  }
+  .hold-slide-section .slide-mobile-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    padding-top: 0;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 428px) {
+  .t-hold-hero-container {
+    background: #59229f;
+    display: block;
+    height: 600px;
+    left: 0;
+  }
+
+  .t-hold-hero-container .txt1 {
+    top: 7.3rem;
+    position: relative;
+    left: 7px;
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+       top: 0;
+   position: relative;
+   right:2rem;
+    color: rgb(30,  30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .hold-h1 {
+    font-family: "open sans";
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-hold {
+    font-family: "open sans";
+    font-family: "open sans";
+    text-align: left;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    right: 0.2rem;
+  }
+
+  .hold-sub-hero {
+    background-color: f7f7f7;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 27rem;
+    justify-content: center;
+    top: 0;
+    align-items: center;
+  }
+
+  .hold-sub-hero text {
+    font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 1.2rem;
+    font-size: 20px;
+    width: 75%;
+    left: 0.5rem;
+  }
+  .hold-sub-hero .red-txt {
+    color: red;
+  }
+  .hold-desktop-image {
+    display: none;
+  }
+  .hold-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .hold-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .hold-slide-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    row-gap: 2px;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .hold-slide-section .slide-desktop-image {
+    width: 24em;
+    height: 18em;
+    padding-top: 15px;
+    border-radius: 14px;
+    display: none;
+  }
+  .hold-slide-section .slide-mobile-image {
+    display: flex;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: flex-start;
+    
+
+ 
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .t-hold-hero-container {
+    background: #59229f;
+    display: block;
+    height: 600px;
+    left: 0;
+  }
+
+  .t-hold-hero-container .txt1 {
+    top: 6.3rem;
+    position: relative;
+    left: 7px;
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+    display: flex;
+    top: 0;
+    padding-left: 0;
+    color: rgb(30,  30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .hold-h1 {
+    font-family: "open sans";
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-hold {
+    font-size: 14px;
+    font-family: "open sans";
+    text-align: left justify;
+    font-size: 12px;
+  }
+
+  .hold-sub-hero {
+    background-color: f7f7f7;
+    display: block;
+    position: relative;
+    min-height: 27rem;
+    top: 0;
+  }
+
+  .hold-sub-hero text {
+    font-family: "open sans";
+    font-weight: 700;
+    position: relative;
+    top: 4px;
+    left: 10.5rem;
+    font-size: 20px;
+    text-align: left;
+  }
+  .hold-sub-hero .red-txt {
+    color: red;
+  }
+  .hold-desktop-image {
+    display: none;
+  }
+  .hold-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .hold-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .hold-slide-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    row-gap: 2rem;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .hold-slide-section .slide-desktop-image {
+    width: 24em;
+    height: 18em;
+    padding-top: 15px;
+    border-radius: 14px;
+    display: none;
+  }
+  .hold-slide-section .slide-mobile-image {
+    display: flex;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    padding-top: 0;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 18px;
+  }
+}
+
+/*TABLETS*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .t-hold-hero-container {
+    background: #59229f;
+    display: block;
+    height: 800px;
+    left: 0;
+  }
+
+  .t-hold-hero-container .txt1 {
+    top: 7.3rem;
+    position: relative;
+    left: 7px;
+    text-align: left;
+  }
+
+  .exph {
+    position: relative;
+    display: flex;
+    top: 0;
+    padding-left: 0;
+    color: rgb(30,  30, 30);
+  }
+
+  .half-line-text {
+    color: red;
+    font-family: "open sans";
+    font-size: 14px;
+    border-top: 2px solid red;
+    width: 7.5em;
+  }
+
+  .txt1 .hold-h1 {
+    font-family: "open sans";
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .txt1 .body-text-hold {
+  
+    font-family: "open sans";
+    text-align: left ;
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .hold-sub-hero {
+    background-color: f7f7f7;
+    display: block;
+    position: relative;
+    min-height: 27rem;
+    top: 0;
+  }
+
+  .hold-sub-hero text {
+    font-family: open sans;
+    font-weight: 700;
+    position: relative;
+    top: 4px;
+
+    font-family: "open sans";
+    font-size: 25px;
+    text-align: left;
+    width: 60%;
+  }
+  .hold-sub-hero .red-txt {
+    color: red;
+  }
+  .hold-desktop-image {
+    display: none;
+  }
+  .hold-mobile-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 4rem;
+  }
+
+  .hold-sub-hero img {
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .hold-slide-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    row-gap: 2rem;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+  }
+
+  .hold-slide-section .slide-desktop-image {
+    width: 24em;
+    height: 18em;
+    padding-top: 15px;
+    border-radius: 14px;
+    display: none;
+  }
+  .hold-slide-section .slide-mobile-image {
+    display: flex;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    padding-top: 0;
+  }
+
+  .red-txt1,
+  .red-txt2,
+  .red-txt3 {
+    color: red;
+    font-family: "open sans";
+    font-weight: 7;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    font-family: "open sans";
+    font-size: 18px;
+  }
+}

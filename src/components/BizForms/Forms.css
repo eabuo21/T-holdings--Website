@@ -1,0 +1,102 @@
+/** @format */
+
+.container-items {
+  z-index: 99999;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.video-background {
+  background: white;
+  position: relative;
+  top: 0.4rem;
+  justify-content: tart;
+  align-items: center;
+  width: 40%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+#label-toast {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  padding: 0.4rem;
+}
+
+.form-input-field,
+.select-options-section {
+  width: 220px;
+  height: 30px;
+}
+
+.submit-form-button-section button {
+  background: red;
+  border: none;
+  width: 200px;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.7s ease-in-out;
+}
+
+.submit-form-button-section button:hover {
+  background: white;
+  border: 2px solid red;
+  transition: 0.7s ease-in-out;
+  color: black;
+}
+
+.select-box {
+  width: 220px;
+  height: 30px;
+  margin-right: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .video-background {
+    background: white;
+    position: relative;
+    top: 0.4rem;
+    justify-content: tart;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .contact-form-service {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+
+    overflow-y: auto;
+  }
+}

@@ -1,0 +1,1014 @@
+.home-container {
+    margin-bottom: 3rem;
+}
+.home-hero-con {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 70vh;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.home-hero-con::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/campusHero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+.home-hero-text {
+    display: flex;
+    border-radius: 10px;
+}
+
+.home-hero-border {
+    width: 0.7rem;
+    background-image: linear-gradient(red 0.03%, gold 110.02%);
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.home-hero-text div h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.home-hero-text div h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 800;
+    font-size: 60px;
+
+    /* line-height: 65px; */
+    letter-spacing: 1rem
+}
+
+.home-hero-text div p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.045em;
+}
+
+.span-bold {
+    font-weight: 700;
+}
+
+.sub-hero {
+    padding: 1rem;
+    margin: auto;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* business section  */
+.business-container {
+    background: rgba(199, 159, 0, 0.73);
+    padding: 1rem;
+    min-height: 460px;
+    position: relative;
+    top: 4rem;
+
+
+}
+
+.business-container h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+.business-container p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.bis-card-container {
+    display: flex;
+    flex-direction: row;
+    row-gap: 1rem;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;
+}
+
+.bis-carAni {
+    display: "flex";
+    flex-direction: "row";
+    overflow-x: "auto";
+    flex-wrap: "nowrap";
+}
+
+
+.business-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top-right-radius: 0.375rem;
+    border-top-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    width: 230px;
+    height: 200px;
+    transition: all 0.3s ease;
+    filter: brightness(1);
+
+}
+
+.business-card:hover {
+    transform: translatey(-15px);
+    filter: brightness(2);
+    border-top-right-radius: 0.375rem;
+    border-top-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+
+.bus-card-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.business-card h3 {
+    margin: 0;
+    padding: 0 0 1rem 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.business-card p {
+    margin: 0;
+    padding: 0 0 1rem 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* i want to cener the icon */
+.bus-card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+/* socials */
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.socials-container li {
+    background: #c0c6c9;
+    border: 1px solid #000000;
+    transition-duration: .3s;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    border-top-right-radius: 0.375rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    height: 3.5rem;
+    display: flex;
+    margin-right: -130px;
+
+}
+
+.socials-container li:hover {
+    border-radius: 0.375rem;
+    margin-left: -100px;
+}
+
+.socials-container li:nth-child(1) {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.socials-container li:nth-child(5) {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.socials-container li a {
+    align-items: center;
+    text-decoration: inherit;
+    font-size: 16px;
+
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    padding: 4px;
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 27.24px;
+    letter-spacing: 7%;
+    text-align: left;
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+}
+
+
+
+/* our store */
+.store-container {
+    margin-bottom: 50px;}
+
+.store-container h1 {
+    /* padding-top: 80px; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+
+
+/* clientele section */
+.clientele-container {
+    min-height: 350px;
+}
+
+.clientele-container h1 {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+
+/* slider */
+
+.client-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.client-slider-wrapper {
+    display: flex;
+    animation: slide-infinite 35s linear infinite;
+}
+
+.client {
+    flex: 0 0 10%;
+    margin: 0 10px;
+}
+
+.client-img {
+    object-fit: contain;
+    width: 140px;
+    height: 140px;
+}
+
+@keyframes slide-infinite {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* partner slider */
+
+.partner-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.partner-slider-wrapper {
+    display: flex;
+    animation: slide-infinite 30s linear infinite;
+}
+
+.partner {
+    flex: 0 0 10%;
+    margin: 0 10px;
+}
+
+@keyframes slide-infinite {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.partner-img {
+    object-fit: contain;
+    width: 280px;
+    height: 280px;
+}
+
+/* awards and recognition section */
+.awards-container {
+    min-height: 350px;
+}
+
+.awards-container h1 {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.award-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.award-slider-wrapper {
+    display: flex;
+    animation: slide-infinite 30s linear infinite;
+}
+
+.award {
+    flex: 0 0 10%;
+    margin: 0 10px;
+}
+
+@keyframes slide-infinite {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.award-img {
+    object-fit: contain;
+    width: 230px;
+    height: 200px;
+
+}
+
+/* partners-container section */
+
+.partners-container {
+    min-height: 350px;
+}
+
+.partners-container h1 {
+    padding: 0px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+
+/* Mailing List Container  */
+.mailing-list {
+    min-height: 392px;
+    background: #C79F00;
+    margin: 0px 0px 20px 0px;
+
+
+}
+
+
+.mailing-list-conatiner {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+.mailing-list-text {
+    padding-top: 60px;
+    text-align: center;
+    text-align: center;
+}
+
+.mailing-list-text h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.mailing-list-text p {
+    margin: 0;
+    padding: 0 0 1rem 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.mailing-list-form {
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.mailing-list-form-input {
+    width: 400px;
+    height: 50px;
+    border: 1.5px solid black;
+    font-weight: 700;
+    font-size: 20px;
+    background: transparent;
+    border-bottom-left-radius: 0.375rem;
+    border-top-left-radius: 0.375rem;
+    padding-left: 8px;
+}
+
+.mailing-list-form-input::-webkit-input-placeholder {
+    padding-left: 10px;
+
+}
+
+.mailing-list-form-input:focus {
+    outline: none;
+}
+
+.mailing-list-form-submit {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    background: #DC0404;
+    color: #FFFFFF;
+    border-bottom-right-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+    text-align: center;
+}
+
+.mailing-list-form-submit::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Open Sans';
+}
+
+.mailing-list-form-submit:hover {
+    background: #DC0404;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* mobile Screen */
+@media only screen and (min-width:1440px) and (max-width: 1440px) {
+
+
+    .home-container {
+        margin-bottom: 3rem;
+    }
+
+    .home-hero-con {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        height: 70vh;
+        margin: auto;
+        padding: 1rem;
+    }
+
+    .home-hero-con::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/campusHero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(1px);
+        z-index: -1;
+    }
+
+
+    .home-hero-text {
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .home-hero-border {
+        width: 0.7rem;
+        background-image: linear-gradient(red 0.03%, gold 110.02%);
+        margin-right: 1rem;
+        border-radius: 10px;
+    }
+
+    .home-hero-text div h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        top: 2opx;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .home-hero-text div h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+        font-weight: 800;
+        font-size: 48px;
+        /* line-height: 65px; */
+        letter-spacing: 0.065em;
+    }
+
+    .home-hero-text div p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.045em;
+    }
+
+    .span-bold {
+        font-weight: 700;
+    }
+
+    .sub-hero {
+        padding: 1rem;
+        min-height: 100px;
+    }
+
+    /* business section  */
+
+
+
+
+    .business-container {
+        background: rgba(red, green, blue, alpha);
+        padding: 1rem;
+        min-height: 280px;
+
+    }
+
+    .business-container h3 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .business-container p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .bis-card-container {
+        display: flex;
+        flex-direction: row;
+        row-gap: 1rem;
+        padding-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        top: 20px;
+
+
+    }
+
+    .business-card
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-top-right-radius: 0.375rem;
+        border-top-left-radius: 0.375rem;
+        box-sizing: border-box;
+        padding: 1rem;
+        margin: 1rem;
+        width: 230px;
+        height: 200px;
+        transition: all 0.3s ease;
+        filter: brightness(1);
+
+    }
+
+ 
+    .bus-card-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .business-card h3 {
+        margin: 0;
+        padding: 0 0 1rem 0;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .business-card p {
+        margin: 0;
+        padding: 0 0 1rem 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* i want to cener the icon */
+    .bus-card-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    /* socials */
+    .socials-container {
+        display: flex;
+        flex-direction: column;
+        top: 35%;
+        right: 0;
+        position: fixed;
+        z-index: 1;
+
+    }
+
+    .socials-container li {
+        background: #c0c6c9;
+        border: 1px solid #000000;
+        transition-duration: .3s;
+        padding-left: 0.5rem;
+        padding-right: 1rem;
+        border-top-right-radius: 0.375rem;
+        justify-content: space-between;
+        align-items: center;
+        width: 10rem;
+        height: 3.5rem;
+        display: flex;
+        margin-right: -130px;
+
+    }
+
+    .socials-container li:hover {
+        border-radius: 0.375rem;
+        margin-left: -100px;
+    }
+
+    .socials-container li:nth-child(1) {
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .socials-container li:nth-child(5) {
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    .socials-container li a {
+        align-items: center;
+        text-decoration: inherit;
+        font-size: 16px;
+
+        color: black;
+        text-decoration: none;
+        margin: 10px;
+        padding: 4px;
+        font-family: "open sans", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 27.24px;
+        letter-spacing: 7%;
+        text-align: left;
+        flex: none;
+        border: 0;
+        flex-grow: 0;
+    }
+
+    /* our store */
+    .store-container {
+        margin-bottom: 50px;
+    }
+
+    .store-container h1 {
+        /* padding-top: 80px; */
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+
+    /* clientele section */
+    .clientele-container {
+        min-height: 350px;
+    }
+
+    .clientele-container h1 {
+        padding-bottom: 30px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+
+    /* slider */
+    .client-slider {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .client-slider-wrapper {
+        display: flex;
+        animation: slide-infinite 35s linear infinite;
+    }
+
+    .client {
+        flex: 0 0 10%;
+        margin: 0 10px;
+    }
+
+    @keyframes slide-infinite {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    /* partner slider */
+
+    .partner-slider {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .partner-slider-wrapper {
+        display: flex;
+        animation: slide-infinite 30s linear infinite;
+    }
+
+    .partner {
+        flex: 0 0 10%;
+        margin: 0 10px;
+    }
+
+    @keyframes slide-infinite {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .partner-img {
+        object-fit: contain;
+        width: 280px;
+        height: 280px;
+    }
+
+    /* awards and recognition section */
+
+    .awards-container {
+        min-height: 350px;
+    }
+
+    .awards-container h1 {
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+    .award-slider {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .award-slider-wrapper {
+        display: flex;
+        animation: slide-infinite 30s linear infinite;
+    }
+
+    .award {
+        flex: 0 0 10%;
+        margin: 0 10px;
+    }
+
+    @keyframes slide-infinite {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .award-img {
+        object-fit: contain;
+        width: 381.6px;
+        height: 254.4px;
+    }
+
+    /* partners-container section */
+    .partners-container {
+        min-height: 350px;
+    }
+
+    .partners-container h1 {
+        padding: 0px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+
+
+
+    /* Mailing List Container  */
+    .mailing-list {
+        min-height: 392px;
+        background: #bb980a;
+        margin: 0px 0px 20px 0px;
+
+    }
+
+    .mailing-list-conatiner {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 2rem;
+
+    }
+
+    .mailing-list-text {
+        padding-top: 60px;
+        text-align: center;
+        text-align: center;
+    }
+
+    .mailing-list-text h1 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+    .mailing-list-text p {
+        margin: 0;
+        padding: 0 0 1rem 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .mailing-list-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .mailing-list-form-input {
+        width: 400px;
+        height: 50px;
+        border: 1.5px solid black;
+        font-weight: 700;
+        font-size: 20px;
+        background-color: white;
+        border-bottom-left-radius: 0.375rem;
+        border-top-left-radius: 0.375rem;
+        padding-left: 8px;
+    }
+
+    .mailing-list-form-input::-webkit-input-placeholder {
+        padding-left: 10px;
+
+    }
+
+    .mailing-list-form-input:focus {
+        outline: none;
+    }
+
+    .mailing-list-form-submit {
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        border: none;
+        font-weight: 700;
+        font-size: 20px;
+        background: #73bb0f;
+        color: #FFFFFF;
+        border-bottom-right-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+        text-align: center;
+    }
+
+    .mailing-list-form-submit::-webkit-input-placeholder {
+        font-size: 20px;
+        line-height: 27px;
+        font-family: 'Open Sans';
+    }
+
+    .mailing-list-form-submit:hover {
+        background: #DC0404;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .business-container {
+       height: auto;
+     padding-bottom: 2rem;
+       
+      
+    }
+}
