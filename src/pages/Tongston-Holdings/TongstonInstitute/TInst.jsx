@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 import SpinningWheel from "../../../../src/components/SpinningWheel";
 import Header from "../../../components/Header";
 import Footer from "../../../components/footer";
@@ -26,6 +27,8 @@ import Research from "../../../components/Modals4Business/InstituteModal/Brochur
 import Clientele1 from "../../../components/Modals4Business/InstituteModal/SelectedClkientele";
 import Clientele2 from "../../../components/Modals4Business/InstituteModal/Clientele2";
 
+//initialize react google analytics
+ReactGA.initialize("437299185");
 const TongstonInstitute = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -33,6 +36,7 @@ const TongstonInstitute = () => {
     setTimeout(() => {
       setIsLoading(false);
     }, 1000); //Simulate a 1-second loading time
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   const settings = {
@@ -233,21 +237,21 @@ const TongstonInstitute = () => {
             >
               <Research />
             </section>
-              <section
-                data-aos="zoom-out"
-                data-aos-easing="ease-in linear"
-                data-aos-delay="50"
-                dat-aos-duration="2000"
-                data-aos-once="tre"
-                data-aos-anchor-placement="top-center"
-                data-aos-mirror="true"
-
-                className="clientele-section"s
+            <section
+              data-aos="zoom-out"
+              data-aos-easing="ease-in linear"
+              data-aos-delay="50"
+              dat-aos-duration="2000"
+              data-aos-once="tre"
+              data-aos-anchor-placement="top-center"
+              data-aos-mirror="true"
+              className="clientele-section"
+              s
               style={{ paddingBottom: "4rem" }}
             >
               <Clientele1 />
-              </section>
-              
+            </section>
+
             <section
               className="clientele2-section"
               style={{ paddingBottom: "4rem" }}

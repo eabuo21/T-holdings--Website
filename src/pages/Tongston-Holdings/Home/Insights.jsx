@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
+import ReactGA from "react-ga";
 import "../../../assets/css/insights.css";
 import mobileXR from "../../../assets/Images/mobileXR.png";
 import growthBis from "../../../assets/Images/growthBis.png";
@@ -14,9 +15,13 @@ import Teem24 from "../../../components/TeemModal";
 import Magazine from "../../../assets/files/Teem 2024_.pdf";
 import "../../../assets/css/Teem.css";
 
+// initialize google analytics
+ReactGA.initialize("437299185");
+
 const Insights = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   //handle the modal the displays the teem magazine on the website with an iframe element
@@ -90,40 +95,52 @@ const Insights = () => {
                 (#TEEM24) is here!
               </h4>
               <div className="teem-text-container-post">
-                <p className="teem-post-first-text-content" style={{
-                  marginLeft: '1rem',
-                
-                }}>
+                <p
+                  className="teem-post-first-text-content"
+                  style={{
+                    marginLeft: "1rem",
+                  }}
+                >
                   Dive into a wealth of knowledge and insights curated just for
                   you across enterprise, finance, media and education. Learn
                   more about Tongston’s unique product suite for people,
                   individuals and governments globally across technology,
                   finance, media, education, data & research and more.
                 </p>
-                <p className="second-text-teem-pos-section " style={{
-                  marginLeft: '1rem'
-                }}>
+                <p
+                  className="second-text-teem-pos-section "
+                  style={{
+                    marginLeft: "1rem",
+                  }}
+                >
                   Our cover story includes highlights from industry leaders
                   across media, education, enterprise and finance:
                 </p>
                 {/* this is the section that contains the list for the teem-board-members */}
-                <ul  className="tdlegates-list">
-                  <li className="lists-names"> Alh. Hassan Usman [Enterprise] </li>
+                <ul className="tdlegates-list">
+                  <li className="lists-names">
+                    {" "}
+                    Alh. Hassan Usman [Enterprise]{" "}
+                  </li>
                   <li className="lists-names"> Mr. Kamri Apollo [Media]</li>
-                  <li className="lists-names"> Ms. Halima Ibrahim Abba [Finance]</li>
+                  <li className="lists-names">
+                    {" "}
+                    Ms. Halima Ibrahim Abba [Finance]
+                  </li>
                   <li className="lists-names"> Dr. Lukman Raimi [Education]</li>
                 </ul>
               </div>
             </section>
-            <div className="download-magazine-section" style={{
-              width: 'auto'
-            }}>
+            <div
+              className="download-magazine-section"
+              style={{
+                width: "auto",
+              }}
+            >
               <h5 className="call-action-text-teem">Want to Grab a Copy? </h5>
-               <a href={Magazine} download   className="teem-download-link">
-                
-             <button className="teem-download-button">
-                click Here 
-              </button>    </a>
+              <a href={Magazine} download className="teem-download-link">
+                <button className="teem-download-button">click Here</button>{" "}
+              </a>
             </div>
           </div>
 

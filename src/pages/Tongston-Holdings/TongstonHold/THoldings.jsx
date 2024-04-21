@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 import SpinningWheel from "../../../../src/components/SpinningWheel";
 import Header from "../../../components/Header";
 import Footer from "../../../components/footer";
@@ -30,6 +31,7 @@ import BrochureComp from "../../../components/Modals4Business/HoldingsModals/Bro
 import SelectedClient from "../../../components/Modals4Business/HoldingsModals/SelectedClkientele";
 import Getintouch from "../../../components/Modals4Business/HoldingsModals/GetIntouch";
 
+ReactGA.initialize("437299185");
 const TongstonHoldings = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -37,6 +39,9 @@ const TongstonHoldings = () => {
     setTimeout(() => {
       setIsLoading(false);
     }, 1000); //Simulate a 1-second loading time
+
+    // foward events from page to google analytics dashboard
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   const settings = {
     dots: true,
@@ -300,9 +305,12 @@ const TongstonHoldings = () => {
               <SelectedClient />
             </section>
 
-              <section className="get-intouch-section" style={{
-              paddingBottom: '2.5rem',
-            }}>
+            <section
+              className="get-intouch-section"
+              style={{
+                paddingBottom: "2.5rem",
+              }}
+            >
               <Getintouch />
             </section>
             <Footer />

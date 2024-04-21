@@ -61,16 +61,16 @@ const Career = () => {
       });
   };
 
-  const PrimaryKeywords =
-    "tongston entrepreneurship group, entrepreneurial education, enterprise development,business consulting, financial services, legal services, public relations, data and research, online events management";
-  //secondary keywords goes here
+  // const PrimaryKeywords =
+  //   "tongston entrepreneurship group, entrepreneurial education, enterprise development,business consulting, financial services, legal services, public relations, data and research, online events management";
+  // //secondary keywords goes here
 
-  const SecondaryKeywords =
-    "startups,SMEs, Africa, Nigeria, investment, growth, innovation, impact, sustainability, branding, ";
-  //long-tail keywords goes here
+  // const SecondaryKeywords =
+  //   "startups,SMEs, Africa, Nigeria, investment, growth, innovation, impact, sustainability, branding, ";
+  // //long-tail keywords goes here
 
-  const Longtailkeywords =
-    "entrepreneurial education programs in nigeria, business consulting services for startups in africa, financial services for small and medium enterprises, legal compliance for businesses in nigeria,  public relations for entrepreneurs, data analysis for businesses, online events management platform";
+  // const Longtailkeywords =
+  //   "entrepreneurial education programs in nigeria, business consulting services for startups in africa, financial services for small and medium enterprises, legal compliance for businesses in nigeria,  public relations for entrepreneurs, data analysis for businesses, online events management platform";
 
   return (
     <>

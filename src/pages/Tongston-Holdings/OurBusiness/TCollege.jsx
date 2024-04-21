@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 import SpinningWheel from "../../../../src/components/SpinningWheel";
 import Header from "../../../components/Header";
 import Footer from "../../../components/footer";
@@ -14,6 +15,8 @@ import Products from "../../../components/Modals4Business/CollegeModals/Training
 import GetIntouch from "../../../components/Modals4Business/HoldingsModals/GetIntouch";
 import Clientele from "../../../components/Modals4Business/CollegeModals/SelectedClkientele";
 import Consultancy from "../../../components/Modals4Business/CollegeModals/Consultancy";
+//initialize react google analytics here
+ReactGA.initialize("437299185");
 
 const TongstonCollege = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,6 +25,8 @@ const TongstonCollege = () => {
     setTimeout(() => {
       setIsLoading(false);
     }, 1000); //Simulate a 1-second loading time
+    //enabling events forwarding to the google analytics dashbard
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   return (
     <>
@@ -172,8 +177,8 @@ const TongstonCollege = () => {
               data-aos-delay="50"
               dat-aos-duration="2000"
               data-aos-anchor-placement="top-center"
-                data-aos-mirror="true"
-                data-aos-once="true"
+              data-aos-mirror="true"
+              data-aos-once="true"
               className="selected-clientele-section"
               style={{
                 paddingBottom: "4rem",

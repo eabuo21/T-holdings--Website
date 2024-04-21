@@ -114,7 +114,7 @@ const Footer = () => {
 
                  <li>
                 {" "}
-                <RouterLink to="*" target="_blank">
+                <RouterLink to="https://tees-2023-a7383c13360d161955826582a3745.webflow.io/" target="_blank">
                   {" "}
                TEES 2024
                 </RouterLink>

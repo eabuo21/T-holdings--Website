@@ -125,7 +125,8 @@ class Navbar extends React.Component {
             </li>
 
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <Link to="https://tees-2023-a7383c13360d161955826582a3745.webflow.io/" className="nav-link" 
+              target="_blank">
                 TEES 2024
               </Link>
             </li>

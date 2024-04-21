@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
+import ReactGA from "react-ga";
 import "../../assets/css/About.css";
 import "../../assets/css/3D  Scale/3D-Scale.css";
 import Hidden from "../../components/AboutPage.jsx/HIdden";
@@ -11,6 +12,10 @@ import Footer from "../../components/footer";
 import MissionCard from "../../components/AboutPage.jsx/Aboutcard/missionCard";
 import CoreValue from "../../components/AboutPage.jsx/Aboutcard/CoreValue";
 import { Helmet } from "react-helmet";
+
+
+// initialize react google analytics 
+ReactGA.initialize("437299185");
 
 function About() {
   const [display, setDisplay] = useState(false);
@@ -24,18 +29,19 @@ function About() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGA.pageview(window.location.pathname  + window.location.search);
   }, []);
 
-  const PrimaryKeywords =
-    "tongston entrepreneurship group, entrepreneurial education, enterprise development,business consulting, financial services, legal services, public relations, data and research, online events management";
-  //secondary keywords goes here
+  // const PrimaryKeywords =
+  //   "tongston entrepreneurship group, entrepreneurial education, enterprise development,business consulting, financial services, legal services, public relations, data and research, online events management";
+  // //secondary keywords goes here
 
-  const SecondaryKeywords =
-    "startups,SMEs, Africa, Nigeria, investment, growth, innovation, impact, sustainability, branding, ";
-  //long-tail keywords goes here
+  // const SecondaryKeywords =
+  //   "startups,SMEs, Africa, Nigeria, investment, growth, innovation, impact, sustainability, branding, ";
+  // //long-tail keywords goes here
 
-  const Longtailkeywords =
-    "entrepreneurial education programs in nigeria, business consulting services for startups in africa, financial services for small and medium enterprises, legal compliance for businesses in nigeria,  public relations for entrepreneurs, data analysis for businesses, online events management platform";
+  // const Longtailkeywords =
+  //   "entrepreneurial education programs in nigeria, business consulting services for startups in africa, financial services for small and medium enterprises, legal compliance for businesses in nigeria,  public relations for entrepreneurs, data analysis for businesses, online events management platform";
 
   return (
     <>

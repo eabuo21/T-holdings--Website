@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
+import ReactGA from "react-ga";
 import emailjs from "emailjs-com";
 import "../../assets/css/contact.css";
 import "../../assets/css/3D  Scale/3D-Scale.css";
@@ -11,6 +12,9 @@ import {
   showSuccessNotification,
 } from "../../components/Notification/Notification";
 import { Helmet } from "react-helmet";
+
+// initialize the react google analytics here
+ReactGA.initialize("437299185");
 
 const Contact = () => {
   useEffect(() => {
@@ -25,6 +29,7 @@ const Contact = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   const handleSubmit = (event) => {
@@ -64,20 +69,20 @@ const Contact = () => {
 
   //SEO optimization
 
-  const PrimaryKeywords =
-    "tongston entrepreneurship group, entrepreneurial education, enterprise development,business consulting, financial services, legal services, public relations, data and research, online events management";
-  //secondary keywords goes here
+  // const PrimaryKeywords =
+  //   "tongston entrepreneurship group, entrepreneurial education, enterprise development,business consulting, financial services, legal services, public relations, data and research, online events management";
+  // //secondary keywords goes here
 
-  const SecondaryKeywords =
-    "startups,SMEs, Africa, Nigeria, investment, growth, innovation, impact, sustainability, branding, ";
-  //long-tail keywords goes here
+  // const SecondaryKeywords =
+  //   "startups,SMEs, Africa, Nigeria, investment, growth, innovation, impact, sustainability, branding, ";
+  // //long-tail keywords goes here
 
-  const Longtailkeywords =
-    "entrepreneurial education programs in nigeria, business consulting services for startups in africa, financial services for small and medium enterprises, legal compliance for businesses in nigeria,  public relations for entrepreneurs, data analysis for businesses, online events management platform";
+  // const Longtailkeywords =
+  //   "entrepreneurial education programs in nigeria, business consulting services for startups in africa, financial services for small and medium enterprises, legal compliance for businesses in nigeria,  public relations for entrepreneurs, data analysis for businesses, online events management platform";
 
   return (
     <>
-    {/*}
+      {/*}
       <Helmet>
         <title> Contact Us</title>
         <meta name="primary-keywords" content={PrimaryKeywords} />
@@ -96,7 +101,7 @@ const Contact = () => {
         />
         <meta property="og:url" content="https://tongston.com/contact" />
       </Helmet>   */}
-      
+
       <div className="fade-in-contact">
         <Header />
         <div className="contact">

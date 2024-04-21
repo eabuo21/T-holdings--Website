@@ -61,7 +61,8 @@ const UpcomingEvent = () => {
                   </p>
                 </div>
                 <a
-                  href=""
+                  href="https://tees-2023-a7383c13360d161955826582a3745.webflow.io/"
+                  target="_blank"
                   
                 >
                   <button className="events-button3">REGISTER</button>
