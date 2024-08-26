@@ -1,0 +1,42 @@
+.new-blog-post-section {
+    position: relative;
+    overflow-y: scroll !important;;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
+
+.honorable-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; 
+    padding: 2rem;
+    background-color: mistyrose;
+    height: 80vh;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transform: translateY(0)  ;
+    transition: transform 0.5s ease-in-out 0.5s;
+    z-index: 1;
+}
+
+
+/* .new-blog-post-section:hover .honorable-container{
+    opacity: 1;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out 0s;
+    z-index: 2;
+
+}  */
+
+
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: start;
+    align-items: start;
+    padding: 3px;
+}
+

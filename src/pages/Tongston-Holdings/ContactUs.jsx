@@ -125,14 +125,14 @@ const Contact = () => {
                       </p>
                     </div>
                     <div className="contact-number">
-                      <span>
+                      {/* <span>
                         <i className="fa fa-xl fa-light fa-phone  fonticon-colour"></i>
-                      </span>
-                      <span className="contact-margin">
+                      </span> */}
+                      {/* <span className="contact-margin">
                         <a className="black-link" href="tel=+2348165602923">
                           +2348165602923
                         </a>
-                      </span>
+                      </span> */}
                     </div>
                     <div className="contact-Address">
                       <div className="contact-number">
@@ -140,7 +140,8 @@ const Contact = () => {
                           <i className="fa fa-light fa-xl fa-map-marker fonticon-colour "></i>
                         </span>
                         <span className="contact-margin">
-                          16 Emeka Anyaoku Street, Area 11 Garki, Abuja
+                          4th Floor, Tower C, Churchgate, Central Business
+                          District, Abuja, Nigeria
                         </span>
                       </div>
                       {/*  <div className="adress-magin">

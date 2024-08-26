@@ -11,6 +11,7 @@ import card5 from "../../assets/Images/businessCard5.png";
 import InstituteBrochure from "../../assets/files/_T INSTITUTE TRAINING_BROCHURE December 2023.pptx.pdf";
 import Mediabrochure from "../../assets/files/Tongston Entreprenuership Media Brochure.pdf";
 import holdings from "../../assets/files/LONG FORM - CONSOLIDATED TONGSTON BROCHURE.pptx.pdf";
+import College from "../../assets/files/colledge.pdf";
 
 function FlipCards() {
   const Cards = [
@@ -28,6 +29,7 @@ function FlipCards() {
       heading: "TONGSTON COLLEGE",
       text: "Entrepreneurial Education",
       icon: hat,
+      file: College,
       link: "/TongstonCollege",
     },
 
@@ -36,7 +38,7 @@ function FlipCards() {
       heading: "TONGSTON VENTURES",
       text: "Finance",
       icon: finance,
-      file: InstituteBrochure,
+
       link: "https://t-ventures.tongston.com/",
     },
 
@@ -45,7 +47,6 @@ function FlipCards() {
       heading: "TONGSTON MEDIA ",
       text: "Media",
       icon: media,
-      file: InstituteBrochure,
       link: "https://t-hub.tongston.com/media",
       file: Mediabrochure,
     },
@@ -55,9 +56,8 @@ function FlipCards() {
       heading: "TONGSTON HOLDINGS",
       text: "Enterprise",
       icon: hat,
-      file: InstituteBrochure,
-      link: "/TongstonHoldings",
       file: holdings,
+      link: "/TongstonHoldings",
     },
   ];
 

@@ -12,8 +12,10 @@ import Header from "../../../components/Header";
 import MailingList from "../../../components/MailingList";
 import Footer from "../../../components/footer";
 import Teem24 from "../../../components/TeemModal";
+import Pitch from "../../../components/Tees24Prize";
 import Magazine from "../../../assets/files/Teem 2024_.pdf";
 import "../../../assets/css/Teem.css";
+import "../../../assets/css/Latest-tees.css";
 
 // initialize google analytics
 ReactGA.initialize("437299185");
@@ -34,6 +36,16 @@ const Insights = () => {
     setShowTem(false);
   };
 
+
+  const [showtees, setShowTees] = useState(false);
+  const open = () => {
+    setShowTees(true);
+  };
+  const close = () => {
+    setShowTees(false);
+  };
+
+
   return (
     <>
       <Header />
@@ -48,28 +60,325 @@ const Insights = () => {
             }}
           >
             <h1>Value, Influence & Profitability At Your Fingertips! </h1>
-            <button
-              onClick={() => handleOpenTeem()}
-              className="modal-button "
+
+            <div
+              className="b-con"
               style={{
-                background: "red",
-                width: "40vh",
-                padding: "1rem",
-                borderRadius: "20px",
-                color: "white",
+                display: "flex",
                 marginLeft: "auto",
                 marginRight: "auto",
-                fontSize: "20px",
+                gap: "3rem",
               }}
             >
-              Explore TEEM 2024
-            </button>
+              <button
+                onClick={() => handleOpenTeem()}
+                className="modal-button "
+                style={{
+                  background: "red",
+                  width: "40vh",
+                  padding: "1rem",
+                  borderRadius: "20px",
+                  color: "white",
+
+                  fontSize: "20px",
+                }}
+              >
+                Explore TEEM 2024
+              </button>
+              <button
+                onClick={() => open()}
+                className="modal-button "
+                style={{
+                  background: "red",
+                  width: "40vh",
+                  padding: "1rem",
+                  borderRadius: "20px",
+                  color: "white",
+
+                  fontSize: "20px",
+                }}
+              >
+               TEES Pitch Prize
+              </button>
+            </div>
             {showteem && <Teem24 onClose={() => handleCloseTeem()} />}
+            {showtees && <Pitch onClose={() => close()} />}
           </div>
         </section>
         {/* body section */}
         <section className="insight-body-con">
           <h1 className="insight-body-heading">LATEST</h1>
+          {/* <section
+            className="new-blog-post-section"
+            style={{
+              background: `linear-gradient(rgba(0, 0, 4, 0.7), rgba(0, 0, 4, 0.7)), url("https://cleancomedians.com/wp-content/uploads/2021/02/interactive-virtual-events-1.jpg ")`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              padding: "2rem",
+              height: "80vh",
+              marginBottom: "5rem",
+            }}
+          >
+            <section className="blog-container">
+              <h1
+                className="blog-heading"
+                style={{
+                  fontSize: "40px",
+                  fontFamily: "open-sans",
+                  color: "white",
+                }}
+              >
+                Discover the Next Big Thing in Entrepreneurship:
+                <br />
+                Join Us at the Tongston Entrepreneurial Pitch Prize!
+              </h1>
+              <p
+                className="blog-subtitle"
+                style={{
+                  width: "80%",
+                  color: "white",
+                  fontSize: "20px",
+                  fontFamily: "open sans",
+                }}
+              >
+                Are you passionate about innovation, business, and the power of
+                new ideas? Do you want to witness the future of entrepreneurship
+                unfold before your eyes? Then mark your calendar for the
+                <span style={{ color: "red" }}>
+                  {" "}
+                  Tongston Entrepreneurial Pitch Prize —
+                </span>{" "}
+                an event that promises to be a highlight in the global business
+                landscape!
+              </p>
+              <h2
+                className="blog-heading-2"
+                style={{ fontSize: "30px", color: "white" }}
+              >
+                What is the Tongston Entrepreneurial Pitch Prize?
+              </h2>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                The Tongston Entrepreneurial Pitch Prize is not just an event;
+                it’s a global stage where visionary entrepreneurs bring their
+                best ideas to life. This prestigious competition offers an
+                unparalleled platform for businesses, startups, and innovators
+                to pitch their concepts to a panel of expert judges and an
+                international audience.
+                <br />
+                <br />
+                But this isn’t just about pitching—it’s about changing the
+                world. Each business that takes the stage has the potential to
+                disrupt industries, solve pressing challenges, and create new
+                markets. And you can be there to see it all happen.
+              </p>
+
+           
+              <h2
+                className="blog-heading-2"
+                style={{ fontSize: "30px", color: "white" }}
+              >
+                Why Attend? Here’s What’s in Store for You
+              </h2>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Witness Innovation in Action
+                </li>
+                There’s something truly inspiring about seeing ideas come to
+                life. At the Tongston Entrepreneurial Pitch Prize, you’ll watch
+                as entrepreneurs from around the globe present their innovative
+                solutions, each with the potential to change the world. Whether
+                you’re an aspiring entrepreneur yourself, an investor on the
+                lookout for the next big thing, or simply someone who loves new
+                ideas, this event will leave you motivated and inspired.
+              </p>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Learn from the Best
+                </li>
+                Our event isn’t just about the pitches—it’s about learning and
+                growth. Throughout the event, you’ll have the opportunity to
+                gain insights from industry leaders, successful entrepreneurs,
+                and expert judges. These are individuals who have been where you
+                are, faced challenges, and come out on top. Their wisdom could
+                be the key to unlocking your own potential.
+              </p>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Network with Like-Minded Individuals
+                </li>
+                The Tongston Entrepreneurial Pitch Prize is more than just a
+                competition—it’s a gathering of minds. You’ll meet
+                entrepreneurs, investors, industry experts, and business
+                enthusiasts from all over the world. This is your chance to
+                build connections, exchange ideas, and maybe even find your next
+                business partner or mentor.
+              </p>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Support the Future of Entrepreneurship
+                </li>
+                By attending this event, you’re not just a spectator—you’re a
+                supporter of the future of business. Your presence and
+                engagement help foster a community where innovation thrives, and
+                new ideas are nurtured. Plus, it’s incredibly rewarding to see a
+                business idea grow and succeed, knowing that you were there from
+                the beginning.
+              </p>
+
+            
+              <h2
+                className="blog-heading-2"
+                style={{ fontSize: "30px", color: "white" }}
+              >
+                What’s at Stake for Entrepreneurs?
+              </h2>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                Our finalists are competing for more than just
+                recognition—they’re vying for a suite of prizes designed to
+                propel their businesses forward. These include:
+              </p>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Cash Prizes:
+                </li>
+                Expert guidance to help them refine their business strategies,
+                optimize operations, and achieve sustainable growth.
+              </p>
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Media Advisory Services
+                </li>
+                Expert guidance to help them refine their business strategies,
+                optimize operations, and achieve sustainable growth.
+              </p>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Finance Advisory Services
+                </li>
+                Tailored advice on managing finances, securing investment, and
+                planning for the future.
+              </p>
+
+              <p
+                className="blog-content-2"
+                style={{ fontSize: "20px", color: "white", width: "80%" }}
+              >
+                <li
+                  style={{
+                    fontWeight: "700",
+                    fontSize: "22px",
+                    listStyle: "disc",
+                    color: "red",
+                  }}
+                >
+                  {" "}
+                  Education Advisory Services
+                </li>
+                Access to resources and mentorship that will enhance their
+                entrepreneurial knowledge and skills.
+                <br />
+                <br />
+                These prizes are more than just rewards—they’re the tools these
+                entrepreneurs need to turn their ideas into thriving, impactful
+                businesses.
+              </p>
+
+
+            </section>
+
+            <div className="honorable-container">Hello there</div>
+          </section> */}
 
           {/*teem magazine post section  */}
           <h1 className="teem-heading">TEEM 2024 Highlights</h1>
@@ -289,6 +598,17 @@ const Insights = () => {
           </div>
         </section>{" "}
         <MailingList />
+        <style jsx>
+          {`
+            @media only screen and (max-width: 768px) {
+              .b-con {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+              }
+            }
+          `}
+        </style>
       </main>
       <Footer />
     </>
